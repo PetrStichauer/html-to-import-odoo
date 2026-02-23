@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TULIO – Domy, které s vámi spolupracují</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+:root {
+  --lime: #A5BE00;
+  --orange: #E67E22;
+  --white: #FFFFFF;
+  --linen: #F3E9DC;
+  --dark: #1C1A16;
+  --dark-80: rgba(28,26,22,0.8);
+  --dark-60: rgba(28,26,22,0.6);
+  --dark-20: rgba(28,26,22,0.12);
+  --warm-gray: #7A7060;
+  --orange-deep: #C5601A;
+  --linen-dark: #E8D8C0;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--dark);
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+/* ─── NAVIGATION ─── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+  height: 70px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 56px;
+  background: rgba(255,255,255,0.94);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--dark-20);
+  transition: box-shadow 0.3s;
+}
+.nav-logo {
+  font-family: 'Fraunces', serif; font-size: 27px; font-weight: 600;
+  color: var(--dark); text-decoration: none; letter-spacing: -0.5px;
+}
+.nav-logo span { color: var(--orange); }
+.nav-links { display: flex; gap: 32px; list-style: none; }
+.nav-links a {
+  font-size: 15px; font-weight: 400; color: var(--dark);
+  text-decoration: none; transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--orange); }
+.nav-cta {
+  background: var(--dark) !important; color: var(--white) !important;
+  padding: 10px 22px; border-radius: 6px; font-weight: 500 !important;
+}
+.nav-cta:hover { background: var(--orange) !important; }
+
+/* ─── HERO CAROUSEL ─── */
+.hero {
+  position: relative; height: 100vh; min-height: 680px; overflow: hidden;
+}
+.hero-track {
+  display: flex; height: 100%;
+  transition: transform 0.85s cubic-bezier(0.77, 0, 0.18, 1);
+}
+.hero-slide {
+  min-width: 100%; height: 100%; position: relative; flex-shrink: 0;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+  transition: transform 9s ease;
+}
+.hero-slide.is-active .hero-bg { transform: scale(1.05); }
+
+/* placeholder BGs with warm color tones */
+.s1 .hero-bg { background: linear-gradient(160deg,#d4c4a0 0%,#b8a882 40%,#8a7a5a 100%); }
+.s2 .hero-bg { background: linear-gradient(160deg,#c8d8a0 0%,#a0b878 40%,#6a8840 100%); }
+.s3 .hero-bg { background: linear-gradient(160deg,#b8c8a0 0%,#8ab088 40%,#5a7a58 100%); }
+.s4 .hero-bg { background: linear-gradient(160deg,#e0c898 0%,#c8a870 40%,#a07840 100%); }
+
+/* dark gradient overlay bottom */
+.hero-slide::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(20,18,14,0.82) 0%, rgba(20,18,14,0.32) 50%, rgba(20,18,14,0.06) 100%);
+  pointer-events: none;
+}
+
+/* placeholder text overlay */
+.hero-img-placeholder {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  font-size: 13px; color: rgba(255,255,255,0.35); font-style: italic;
+  text-align: center; padding: 40px; line-height: 1.6; z-index: 1;
+}
+
+.hero-content {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 0 72px 80px; z-index: 2;
+}
+.hero-tag {
+  display: inline-block; font-size: 11px; font-weight: 500;
+  letter-spacing: 3px; text-transform: uppercase; color: var(--lime);
+  margin-bottom: 18px; opacity: 0; transform: translateY(16px);
+  transition: all 0.6s ease 0.15s;
+}
+.hero-slide.is-active .hero-tag { opacity: 1; transform: none; }
+
+.hero-h1 {
+  font-family: 'Fraunces', serif; font-size: clamp(44px, 5.2vw, 82px);
+  font-weight: 300; line-height: 1.07; color: var(--white);
+  max-width: 860px; margin-bottom: 22px;
+  opacity: 0; transform: translateY(24px);
+  transition: all 0.75s ease 0.3s;
+}
+.hero-slide.is-active .hero-h1 { opacity: 1; transform: none; }
+.hero-h1 em { font-style: italic; color: var(--linen); }
+
+.hero-sub {
+  font-size: 18px; font-weight: 300; color: rgba(255,255,255,0.76);
+  max-width: 560px; line-height: 1.65; margin-bottom: 40px;
+  opacity: 0; transform: translateY(16px);
+  transition: all 0.75s ease 0.46s;
+}
+.hero-slide.is-active .hero-sub { opacity: 1; transform: none; }
+
+.hero-btns {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  opacity: 0; transform: translateY(12px);
+  transition: all 0.7s ease 0.6s;
+}
+.hero-slide.is-active .hero-btns { opacity: 1; transform: none; }
+
+.btn-orange {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--orange); color: var(--white);
+  padding: 15px 30px; font-size: 16px; font-weight: 500;
+  border-radius: 8px; text-decoration: none; border: none; cursor: pointer;
+  transition: all 0.25s;
+}
+.btn-orange:hover { background: var(--orange-deep); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(230,126,34,0.38); }
+
+.btn-ghost-w {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: transparent; color: var(--white);
+  padding: 15px 26px; font-size: 16px; font-weight: 400;
+  border-radius: 8px; text-decoration: none;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  transition: all 0.25s;
+}
+.btn-ghost-w:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.7); }
+
+/* carousel controls */
+.hero-controls {
+  position: absolute; bottom: 36px; right: 72px; z-index: 3;
+  display: flex; align-items: center; gap: 14px;
+}
+.hero-dots { display: flex; gap: 8px; }
+.hero-dot {
+  width: 7px; height: 7px; border-radius: 50%; border: none; cursor: pointer;
+  background: rgba(255,255,255,0.32); transition: all 0.3s;
+}
+.hero-dot.on { background: var(--orange); width: 26px; border-radius: 4px; }
+.h-btn {
+  width: 42px; height: 42px; border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.36);
+  background: transparent; color: var(--white); display: flex;
+  align-items: center; justify-content: center; cursor: pointer;
+  font-size: 17px; transition: all 0.25s;
+}
+.h-btn:hover { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.7); }
+
+/* progress bar */
+.hero-progress {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 3px; z-index: 3;
+  background: rgba(255,255,255,0.15);
+}
+.hero-progress-fill {
+  height: 100%; background: var(--orange);
+  transition: width 0s linear;
+}
+
+/* slide counter top-right */
+.hero-counter {
+  position: absolute; top: 88px; right: 72px; z-index: 3;
+  font-family: 'Fraunces', serif; font-size: 12px; letter-spacing: 2px;
+  color: rgba(255,255,255,0.42);
+}
+
+/* ─── SECTION HELPERS ─── */
+.section-tag {
+  display: inline-block; font-size: 11px; font-weight: 500;
+  letter-spacing: 3px; text-transform: uppercase; color: var(--orange);
+  margin-bottom: 16px;
+}
+.section-h2 {
+  font-family: 'Fraunces', serif; font-size: clamp(32px, 3.8vw, 56px);
+  font-weight: 300; line-height: 1.1; color: var(--dark);
+}
+.section-h2 em { font-style: italic; color: var(--orange); }
+.section-intro {
+  font-size: 18px; font-weight: 300; color: var(--warm-gray);
+  line-height: 1.7; margin-top: 14px;
+}
+
+/* fade-up animation */
+.fu { opacity: 0; transform: translateY(36px); transition: opacity 0.75s ease, transform 0.75s ease; }
+.fu.vis { opacity: 1; transform: none; }
+
+/* ─── ROUTER SECTION ─── */
+.router { padding: 104px 56px; background: var(--linen); }
+.router-head { text-align: center; margin-bottom: 60px; max-width: 680px; margin-left: auto; margin-right: auto; }
+.router-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 3px; max-width: 1320px; margin: 0 auto;
+  border-radius: 18px; overflow: hidden;
+}
+.r-card {
+  background: var(--white); padding: 44px 32px 40px;
+  display: flex; flex-direction: column; cursor: pointer;
+  transition: background 0.32s, color 0.32s;
+  text-decoration: none; position: relative; overflow: hidden;
+}
+.r-card::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+  background: var(--orange); transform: scaleX(0); transform-origin: left;
+  transition: transform 0.32s ease;
+}
+.r-card:hover::after { transform: scaleX(1); }
+.r-card:hover { background: var(--dark); }
+.r-card:hover .r-icon { background: rgba(230,126,34,0.15); }
+.r-card:hover .r-kw { color: var(--orange); }
+.r-card:hover .r-title { color: var(--white); }
+.r-card:hover .r-desc { color: rgba(255,255,255,0.58); }
+.r-card:hover .r-cta { color: var(--orange); }
+
+.r-icon {
+  width: 48px; height: 48px; border-radius: 12px;
+  background: var(--linen); display: flex; align-items: center;
+  justify-content: center; margin-bottom: 26px; font-size: 22px;
+  transition: background 0.3s; flex-shrink: 0;
+}
+.r-kw {
+  font-family: 'Fraunces', serif; font-size: 13px; font-weight: 400;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--orange); margin-bottom: 10px;
+  transition: color 0.3s;
+}
+.r-title {
+  font-family: 'Fraunces', serif; font-size: 21px; font-weight: 400;
+  line-height: 1.25; color: var(--dark); margin-bottom: 14px;
+  transition: color 0.3s;
+}
+.r-desc {
+  font-size: 15px; font-weight: 300; color: var(--warm-gray);
+  line-height: 1.68; flex: 1; transition: color 0.3s;
+}
+.r-cta {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 14px; font-weight: 500; color: var(--orange);
+  margin-top: 26px; text-decoration: none; transition: gap 0.25s;
+}
+.r-card:hover .r-cta { gap: 10px; }
+
+.router-note {
+  text-align: center; margin-top: 28px; font-size: 15px;
+  font-weight: 300; color: var(--warm-gray);
+}
+.router-note a { color: var(--dark); text-underline-offset: 3px; }
+
+/* ─── PROBLEMS SECTION ─── */
+.problems { padding: 112px 56px; background: var(--white); }
+.problems-inner { max-width: 1320px; margin: 0 auto; }
+.problems-head { max-width: 740px; margin-bottom: 72px; }
+
+.problems-blocks {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  gap: 3px; border-radius: 18px; overflow: hidden;
+}
+.pb {
+  padding: 52px 44px; background: var(--linen);
+  transition: background 0.3s;
+}
+.pb:hover { background: var(--linen-dark); }
+
+.pb-num {
+  font-family: 'Fraunces', serif; font-size: 54px; font-weight: 300;
+  color: var(--dark-20); line-height: 1; margin-bottom: 28px;
+}
+.pb-problem {
+  font-family: 'Fraunces', serif; font-size: 11px; font-weight: 500;
+  letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--warm-gray); margin-bottom: 8px;
+}
+.pb-h3 {
+  font-family: 'Fraunces', serif; font-size: 22px; font-weight: 400;
+  line-height: 1.25; color: var(--dark); margin-bottom: 16px;
+}
+.pb-body {
+  font-size: 16px; font-weight: 300; color: var(--dark);
+  line-height: 1.75;
+}
+.pb-body strong { font-weight: 500; }
+
+/* ─── WHY TULIO ─── */
+.why { padding: 112px 56px; background: var(--dark); }
+.why-inner { max-width: 1320px; margin: 0 auto; }
+.why .section-tag { color: var(--lime); }
+.why .section-h2 { color: var(--white); }
+.why .section-h2 em { color: var(--lime); }
+.why .section-intro { color: rgba(255,255,255,0.5); }
+.why-head { max-width: 840px; margin-bottom: 72px; }
+
+.why-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 3px;
+  border-radius: 18px; overflow: hidden;
+}
+.why-card {
+  background: rgba(255,255,255,0.04); padding: 44px 36px;
+  transition: background 0.3s; position: relative;
+}
+.why-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--lime), var(--orange));
+  transform: scaleX(0); transform-origin: left; transition: transform 0.35s;
+}
+.why-card:hover { background: rgba(255,255,255,0.08); }
+.why-card:hover::before { transform: scaleX(1); }
+
+.why-stat {
+  font-family: 'Fraunces', serif; font-size: 52px; font-weight: 300;
+  line-height: 1; color: var(--orange); margin-bottom: 8px;
+}
+.why-unit { font-size: 22px; }
+.why-label {
+  font-size: 12px; font-weight: 500; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--lime); margin-bottom: 18px;
+}
+.why-body-card {
+  font-size: 15px; font-weight: 300; color: rgba(255,255,255,0.6);
+  line-height: 1.72;
+}
+.why-body-card strong { color: rgba(255,255,255,0.85); font-weight: 400; }
+
+/* ─── PROCESS ─── */
+.process { padding: 112px 56px; background: var(--linen); }
+.process-inner { max-width: 1320px; margin: 0 auto; }
+.process-head { max-width: 680px; margin: 0 auto 80px; text-align: center; }
+
+.process-steps {
+  position: relative; display: grid;
+  grid-template-columns: repeat(5, 1fr); gap: 0;
+}
+.process-line {
+  position: absolute; top: 38px; left: 10%; right: 10%; height: 1px;
+  background: var(--dark-20); z-index: 0;
+}
+.ps {
+  padding: 0 20px; text-align: center; position: relative; z-index: 1;
+}
+.ps-num {
+  width: 76px; height: 76px; border-radius: 50%;
+  background: var(--white); border: 2px solid var(--dark-20);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Fraunces', serif; font-size: 28px; font-weight: 300;
+  color: var(--dark); margin: 0 auto 28px;
+  transition: all 0.3s; position: relative; z-index: 1;
+}
+.ps:hover .ps-num { background: var(--orange); color: var(--white); border-color: var(--orange); transform: scale(1.1); }
+.ps-title {
+  font-family: 'Fraunces', serif; font-size: 18px; font-weight: 400;
+  color: var(--dark); margin-bottom: 12px; line-height: 1.3;
+}
+.ps-body { font-size: 14px; font-weight: 300; color: var(--warm-gray); line-height: 1.7; }
+.ps-time {
+  display: inline-block; margin-top: 12px; font-size: 12px; font-weight: 500;
+  color: var(--orange); letter-spacing: 0.4px;
+}
+
+.process-note {
+  margin-top: 52px; padding: 24px 32px;
+  background: rgba(28,26,22,0.06); border-radius: 10px;
+  font-size: 14px; font-weight: 300; color: var(--warm-gray);
+  font-style: italic; text-align: center; max-width: 860px; margin-left: auto; margin-right: auto;
+}
+
+/* ─── FOUNDERS / PILOT ─── */
+.founders { padding: 112px 56px; background: var(--white); }
+.founders-inner {
+  max-width: 1320px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1.1fr; gap: 88px; align-items: center;
+}
+.founders-img {
+  position: relative; aspect-ratio: 4/3;
+  background: var(--linen); border-radius: 18px; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+}
+.founders-img-placeholder {
+  font-size: 13px; color: var(--warm-gray); font-style: italic;
+  text-align: center; padding: 40px; line-height: 1.7;
+}
+.founders-badge {
+  position: absolute; bottom: -18px; right: -18px;
+  width: 104px; height: 104px; border-radius: 50%;
+  background: var(--orange); display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center;
+  color: var(--white); padding: 14px;
+}
+.founders-badge-num {
+  font-family: 'Fraunces', serif; font-size: 28px; font-weight: 300; line-height: 1;
+}
+.founders-badge-text { font-size: 11px; font-weight: 400; line-height: 1.3; margin-top: 4px; }
+
+.founders-eyebrow {
+  display: inline-block; background: var(--linen); color: var(--orange);
+  font-size: 11px; font-weight: 500; letter-spacing: 2.5px;
+  text-transform: uppercase; padding: 8px 16px; border-radius: 4px; margin-bottom: 22px;
+}
+.founders-h2 {
+  font-family: 'Fraunces', serif; font-size: clamp(30px, 3.2vw, 46px);
+  font-weight: 300; line-height: 1.15; color: var(--dark); margin-bottom: 20px;
+}
+.founders-h2 em { font-style: italic; color: var(--orange); }
+.founders-lead {
+  font-size: 17px; font-weight: 300; color: #4A4540;
+  line-height: 1.8; margin-bottom: 40px;
+}
+
+.benefits { display: flex; flex-direction: column; gap: 22px; margin-bottom: 40px; }
+.benefit {
+  display: flex; gap: 16px; align-items: flex-start;
+  padding: 22px 24px; background: var(--linen); border-radius: 12px;
+  transition: background 0.25s;
+}
+.benefit:hover { background: var(--linen-dark); }
+.benefit-icon {
+  width: 40px; height: 40px; border-radius: 10px; background: var(--white);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; flex-shrink: 0; margin-top: 2px;
+}
+.benefit-title { font-size: 15px; font-weight: 500; color: var(--dark); margin-bottom: 5px; }
+.benefit-body { font-size: 14px; font-weight: 300; color: var(--warm-gray); line-height: 1.65; }
+
+.spots { display: flex; align-items: center; gap: 10px; margin-bottom: 32px; }
+.spot {
+  width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--dark-20);
+  background: var(--white); display: flex; align-items: center; justify-content: center;
+  font-family: 'Fraunces', serif; font-size: 15px; font-weight: 300; color: var(--dark);
+}
+.spot.taken { background: var(--lime); border-color: var(--lime); color: var(--white); font-size: 17px; }
+.spots-label { font-size: 14px; font-weight: 300; color: var(--warm-gray); margin-left: 6px; }
+
+/* ─── STORY ─── */
+.story { padding: 112px 56px; background: var(--linen); }
+.story-inner {
+  max-width: 1320px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1.3fr; gap: 96px; align-items: start;
+}
+.story-quote {
+  font-family: 'Fraunces', serif; font-size: clamp(24px, 2.6vw, 38px);
+  font-weight: 300; font-style: italic; line-height: 1.38;
+  color: var(--dark); margin-bottom: 28px;
+  padding-left: 28px; border-left: 3px solid var(--orange);
+}
+.story-body {
+  font-size: 17px; font-weight: 300; color: #4A4540; line-height: 1.82;
+  margin-bottom: 36px;
+}
+.btn-dark {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--dark); color: var(--white);
+  padding: 15px 28px; font-size: 15px; font-weight: 500;
+  border-radius: 8px; text-decoration: none; transition: all 0.25s;
+}
+.btn-dark:hover { background: var(--orange); transform: translateY(-2px); }
+
+.team { display: flex; flex-direction: column; gap: 24px; }
+.tm {
+  display: flex; gap: 20px; padding: 26px; background: var(--white);
+  border-radius: 14px; transition: all 0.25s;
+}
+.tm:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(28,26,22,0.08); }
+.tm-av {
+  width: 60px; height: 60px; border-radius: 50%; background: var(--linen);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Fraunces', serif; font-size: 22px; color: var(--orange);
+  flex-shrink: 0;
+}
+.tm-name { font-family: 'Fraunces', serif; font-size: 17px; font-weight: 400; color: var(--dark); margin-bottom: 3px; }
+.tm-role {
+  font-size: 11px; font-weight: 500; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--orange); margin-bottom: 10px;
+}
+.tm-bio { font-size: 14px; font-weight: 300; color: var(--warm-gray); line-height: 1.68; }
+
+/* ─── CONTACT ─── */
+.contact { padding: 112px 56px; background: var(--dark); position: relative; overflow: hidden; }
+.contact::before {
+  content: ''; position: absolute; bottom: -300px; left: -200px;
+  width: 700px; height: 700px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(230,126,34,0.07) 0%, transparent 70%);
+}
+.contact-inner { max-width: 920px; margin: 0 auto; text-align: center; position: relative; }
+.contact .section-tag { color: var(--lime); }
+.contact-h2 {
+  font-family: 'Fraunces', serif; font-size: clamp(38px, 4.5vw, 66px);
+  font-weight: 300; line-height: 1.1; color: var(--white); margin-bottom: 22px;
+}
+.contact-h2 em { font-style: italic; color: var(--orange); }
+.contact-lead {
+  font-size: 18px; font-weight: 300; color: rgba(255,255,255,0.6);
+  line-height: 1.72; max-width: 600px; margin: 0 auto 52px;
+}
+.contact-cards {
+  display: flex; gap: 20px; justify-content: center;
+}
+.cc {
+  background: rgba(255,255,255,0.06);
+  border: 1.5px solid rgba(255,255,255,0.1);
+  border-radius: 14px; padding: 34px 32px; text-align: left;
+  flex: 1; max-width: 280px; text-decoration: none;
+  transition: all 0.3s; cursor: pointer;
+}
+.cc:hover { background: rgba(255,255,255,0.11); border-color: rgba(255,255,255,0.24); transform: translateY(-4px); }
+.cc-icon { font-size: 26px; margin-bottom: 14px; }
+.cc-title {
+  font-family: 'Fraunces', serif; font-size: 17px; font-weight: 400;
+  color: var(--white); margin-bottom: 8px;
+}
+.cc-desc { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.48); line-height: 1.6; }
+.cc-action {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 14px; font-weight: 500; color: var(--orange); margin-top: 16px;
+}
+
+/* ─── NEWSLETTER ─── */
+.nl { padding: 68px 56px; background: var(--linen); border-top: 1px solid var(--dark-20); }
+.nl-inner { max-width: 1320px; margin: 0 auto; display: flex; align-items: center; gap: 72px; }
+.nl-text { flex: 1; }
+.nl-title { font-family: 'Fraunces', serif; font-size: 25px; font-weight: 400; color: var(--dark); margin-bottom: 8px; }
+.nl-desc { font-size: 15px; font-weight: 300; color: var(--warm-gray); line-height: 1.68; }
+.nl-form { display: flex; gap: 12px; min-width: 400px; }
+.nl-input {
+  flex: 1; padding: 14px 18px;
+  border: 1.5px solid var(--dark-20); border-radius: 8px;
+  font-family: 'DM Sans', sans-serif; font-size: 16px; font-weight: 300;
+  color: var(--dark); background: var(--white); outline: none;
+  transition: border-color 0.2s;
+}
+.nl-input:focus { border-color: var(--orange); }
+.nl-input::placeholder { color: var(--warm-gray); }
+
+/* ─── FOOTER ─── */
+footer { background: var(--dark); padding: 56px 56px 40px; }
+.footer-grid {
+  max-width: 1320px; margin: 0 auto;
+  display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 56px;
+  padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 32px;
+}
+.footer-logo { font-family: 'Fraunces', serif; font-size: 26px; font-weight: 600; color: var(--white); display: block; margin-bottom: 14px; }
+.footer-logo span { color: var(--orange); }
+.footer-tagline { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.4); line-height: 1.7; margin-bottom: 22px; }
+.f-contact { font-size: 14px; margin-bottom: 8px; }
+.f-contact a { color: rgba(255,255,255,0.55); text-decoration: none; transition: color 0.2s; }
+.f-contact a:hover { color: var(--orange); }
+.f-col-h { font-size: 11px; font-weight: 500; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,0.28); margin-bottom: 18px; }
+.f-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.f-links a { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s; }
+.f-links a:hover { color: var(--white); }
+.footer-bottom {
+  max-width: 1320px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 13px; color: rgba(255,255,255,0.28);
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1024px) {
+  .router-grid { grid-template-columns: 1fr 1fr; }
+  .problems-blocks { grid-template-columns: 1fr; }
+  .why-grid { grid-template-columns: 1fr 1fr; }
+  .process-steps { grid-template-columns: 1fr 1fr 1fr; }
+  .process-line { display: none; }
+  .founders-inner { grid-template-columns: 1fr; gap: 48px; }
+  .story-inner { grid-template-columns: 1fr; gap: 52px; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+  nav { padding: 0 24px; }
+  .nav-links { display: none; }
+  .hero-content { padding: 0 28px 56px; }
+  .hero-counter { right: 28px; }
+  .hero-controls { right: 28px; }
+  .hero-h1 { font-size: clamp(34px, 8vw, 52px); }
+  .hero-sub { font-size: 16px; }
+  section[class] { padding: 68px 24px; }
+  .router { padding: 68px 24px; }
+  .router-grid { grid-template-columns: 1fr; }
+  .problems { padding: 68px 24px; }
+  .why { padding: 68px 24px; }
+  .why-grid { grid-template-columns: 1fr; }
+  .process { padding: 68px 24px; }
+  .process-steps { grid-template-columns: 1fr 1fr; }
+  .founders { padding: 68px 24px; }
+  .story { padding: 68px 24px; }
+  .contact { padding: 68px 24px; }
+  .contact-cards { flex-direction: column; }
+  .cc { max-width: 100%; }
+  .nl { padding: 52px 24px; }
+  .nl-inner { flex-direction: column; gap: 28px; }
+  .nl-form { min-width: unset; width: 100%; }
+  footer { padding: 48px 24px 32px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+  .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="topnav">
+  <a href="#" class="nav-logo">TULIO<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#router">Pro koho stavíme</a></li>
+    <li><a href="#why">Proč TULIO</a></li>
+    <li><a href="#process">Jak to funguje</a></li>
+    <li><a href="#story">Náš příběh</a></li>
+    <li><a href="#contact" class="nav-cta">Promluvte si s námi</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-track" id="heroTrack">
+
+    <!-- Slide 1 -->
+    <div class="hero-slide s1 is-active">
+      <div class="hero-bg"></div>
+      <div class="hero-img-placeholder">
+        [FOTO: Interiér – ranní světlo skrze panoramatické okno do lesa. Žena sedí v posteli, šálek kávy, CLT stěny v teplém dřevě viditelné z boku. Zlatá hodinka, příjemná mlha venku. Pohled zevnitř ven.]
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">Pasivní standard · prémiové materiály</span>
+        <h1 class="hero-h1">Domov, kde se vám<br>ráno <em>nechce z postele.</em></h1>
+        <p class="hero-sub">Ne proto, že jste líní — ale proto, že jste poprvé bydleli někde, kde je vzduch čistý, ticho skutečné a teplo se drží samo od sebe. Tohle je TULIO.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn-orange">Promluvte si s námi →</a>
+          <a href="#why" class="btn-ghost-w">Zjistit víc</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide s2">
+      <div class="hero-bg"></div>
+      <div class="hero-img-placeholder">
+        [FOTO: Rodina – maminka, tatínek, dvě děti 5 a 8 let – snídaně na terase. Letní ráno, hrající si děti, rodiče s kávou, dřevěná terasa, v pozadí velká panoramatická okna domu.]
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">Rodinný dům · modulární systém</span>
+        <h1 class="hero-h1">Nejzdravější místo,<br>kde mohou vaše<br><em>děti vyrůstat.</em></h1>
+        <p class="hero-sub">Žádná plíseň, žádné toxické materiály, žádné přeplácení za teplo. Masivní dřevo, čerstvý vzduch 24 hodin denně a dům, který se rozrůstá spolu s vaší rodinou — ne takový, ze kterého za pět let musíte pryč.</p>
+        <div class="hero-btns">
+          <a href="#router" class="btn-orange">Najít svůj příběh →</a>
+          <a href="#process" class="btn-ghost-w">Jak to probíhá</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide s3">
+      <div class="hero-bg"></div>
+      <div class="hero-img-placeholder">
+        [FOTO: Malá chata v lese, ranní mlha, velké okno svítí teplým světlem. Interiér viditelný přes okno – kniha na lavici, vlněná deka. Podzimní barvy, atmosféra ticha a klidu. Nikdo uvnitř.]
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">TULIO Relax · rekreační bydlení</span>
+        <h1 class="hero-h1">Útočiště v přírodě.<br><em>Stáváte se chatařem 2.0.</em></h1>
+        <p class="hero-sub">Prémiové materiály, které normálně najdete jen v pasivních rodinných domech — teď i v kompaktním rekreačním objektu. Fundermax fasáda, CLT konstrukce, Zehnder rekuperace. Toto není chata. Je to jiná liga.</p>
+        <div class="hero-btns">
+          <a href="#router" class="btn-orange">Ukažte mi Relax →</a>
+          <a href="#contact" class="btn-ghost-w">Zavolat Mirkovi</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="hero-slide s4">
+      <div class="hero-bg"></div>
+      <div class="hero-img-placeholder">
+        [FOTO: Exteriér – moderní modulární dům v krajině, Fundermax fasáda, velká okna. Podvečer, teplé světlo zevnitř. Kopce v dálce, zahrada. Pohled z dálky, dům jako celek.]
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">Výroba v hale · 2 týdny na modul</span>
+        <h1 class="hero-h1">Zatímco soused čeká<br>na základ, <em>vy grilujete.</em></h1>
+        <p class="hero-sub">Tisíce lidí žijí v domech, které nejdou ruku v ruce s jejich potřebami — a platí za to každý měsíc. CLT, VIP izolace a rekuperace Zehnder. Tři technologie jako jeden celek, který funguje padesát let.</p>
+        <div class="hero-btns">
+          <a href="#process" class="btn-orange">Jak probíhá výroba →</a>
+          <a href="#founders" class="btn-ghost-w">Pilotní program</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /track -->
+
+  <div class="hero-counter" id="heroCounter">01 / 04</div>
+  <div class="hero-controls">
+    <button class="h-btn" id="heroPrev" aria-label="Předchozí">&#8592;</button>
+    <div class="hero-dots" id="heroDots">
+      <button class="hero-dot on" data-i="0"></button>
+      <button class="hero-dot" data-i="1"></button>
+      <button class="hero-dot" data-i="2"></button>
+      <button class="hero-dot" data-i="3"></button>
+    </div>
+    <button class="h-btn" id="heroNext" aria-label="Další">&#8594;</button>
+  </div>
+  <div class="hero-progress"><div class="hero-progress-fill" id="progressFill"></div></div>
+</section>
+
+<!-- ROUTER -->
+<section class="router" id="router">
+  <div class="router-head fu">
+    <span class="section-tag">Pro koho stavíme</span>
+    <h2 class="section-h2">Každý dům má svůj příběh.<br><em>Jaký je ten váš?</em></h2>
+    <p class="section-intro">Čtyři různé životní situace, jeden přístup ke kvalitě. Vyberte tu svou a přečtěte si příběh, který byl napsaný pro vás.</p>
+  </div>
+
+  <div class="router-grid fu">
+
+    <!-- Mladý -->
+    <a href="#" class="r-card">
+      <div class="r-icon">🏠</div>
+      <div class="r-kw">Startovací bydlení</div>
+      <h3 class="r-title">Začínám bydlet rovnou ve svém.</h3>
+      <p class="r-desc">Platit nájem znamená platit za byt, který nikdy nebude váš. Jeden startovací modul je reálné řešení pro reálný rozpočet — a dům, který s vámi poroste, až budete potřebovat více prostoru.</p>
+      <span class="r-cta">Můj příběh →</span>
+    </a>
+
+    <!-- Rodina -->
+    <a href="#" class="r-card">
+      <div class="r-icon">👨‍👩‍👧‍👦</div>
+      <div class="r-kw">Rodinný dům</div>
+      <h3 class="r-title">Modulární zázemí pro rodinu. Rovnou, ne za deset let.</h3>
+      <p class="r-desc">Nemusíte čekat, až budete mít na velký dům. Začnete tím, co dnes dává smysl, a přidáte modul, až přijde nový člen rodiny. Dům se přizpůsobí vám — ne vy jemu.</p>
+      <span class="r-cta">Náš příběh →</span>
+    </a>
+
+    <!-- Relax -->
+    <a href="#" class="r-card">
+      <div class="r-icon">🌲</div>
+      <div class="r-kw">Rekreace a relax</div>
+      <h3 class="r-title">Vaše investice do vlastní regenerace.</h3>
+      <p class="r-desc">Kompaktní rekreační objekt s parametry rodinného domu. Žádná maringotka, žádný levný šuplík v lese. Fundermax, CLT, Zehnder — prémiové materiály pro místo, kde si dovolíte být sami sebou.</p>
+      <span class="r-cta">Ukažte mi, jak relaxovat jako chatař 2.0 →</span>
+    </a>
+
+    <!-- Senior -->
+    <a href="#" class="r-card">
+      <div class="r-icon">🏡</div>
+      <div class="r-kw">Vejmínek</div>
+      <h3 class="r-title">Vejmínek 21. století.</h3>
+      <p class="r-desc">Moderní kompaktní bydlení pro prarodiče, kteří nechtějí daleko od své rodiny. Bezbariérový, teplý, vlastní — na zahradě vašich dětí. Blízkost bez ponorky, soukromí bez odloučení.</p>
+      <span class="r-cta">Vejmínek jinak →</span>
+    </a>
+
+  </div>
+
+  <p class="router-note fu">Jste developer nebo investor? <a href="/pro-investory">Připravili jsme pro vás samostatnou stránku →</a></p>
+</section>
+
+<!-- PROBLEMS -->
+<section class="problems" id="problems">
+  <div class="problems-inner">
+    <div class="problems-head fu">
+      <span class="section-tag">Proč je to jinak</span>
+      <h2 class="section-h2">Tři časté problémy,<br>které lidi od stavby odrazují —<br><em>a jak je TULIO řeší.</em></h2>
+      <p class="section-intro">Každý, kdo někdy přemýšlel o vlastním domě, narazil na tyhle tři stěny. Přesně s nimi pracujeme od prvního dne.</p>
+    </div>
+
+    <div class="problems-blocks fu">
+
+      <!-- Blok 1 -->
+      <div class="pb">
+        <div class="pb-num">01</div>
+        <div class="pb-problem">Problém č. 1</div>
+        <h3 class="pb-h3">Investuji velkou sumu do domu, který za pár let nemusí sedět.</h3>
+        <p class="pb-body">
+          Klasická výstavba vás přimáčkne hned na začátku — projekt, základ, celá plocha najednou, a to ještě před tím, než víte, jak váš život za pět let bude vypadat. Pořizujete materiál i prostory, které třeba roky nevyužijete.
+          <br><br>
+          <strong>TULIO funguje opačně.</strong> Začnete jedním modulem, který dává smysl právě teď. Druhý přidáte, až přijde dítě nebo partner — a třetí, až budete vědět přesně proč. Každý krok je vědomá investice do hodnoty, ne sázka na neurčitou budoucnost.
+        </p>
+      </div>
+
+      <!-- Blok 2 -->
+      <div class="pb">
+        <div class="pb-num">02</div>
+        <div class="pb-problem">Problém č. 2</div>
+        <h3 class="pb-h3">Stavba trvá roky, stojí víc než bylo v plánu a nervy to vezme.</h3>
+        <p class="pb-body">
+          Tohle není mýtus — je to zkušenost většiny lidí, kteří stavěli tradiční cestou. Déšť, řemeslníci, kteří nepřišli, výdaje navíc za každý nečekaný detail. Stavba na místě je ze své podstaty nepředvídatelná.
+          <br><br>
+          <strong>Výroba v naší hale tohle eliminuje.</strong> CNC stroje, CLT panely na milimetry přesně, kontrola kvality před odjezdem. Jeden modul zvládneme za 14 dní. Montáž na pozemku trvá dny, ne roky. Přivezeme vám hotový dům — a každý spoj má svůj protokol.
+        </p>
+      </div>
+
+      <!-- Blok 3 -->
+      <div class="pb">
+        <div class="pb-num">03</div>
+        <div class="pb-problem">Problém č. 3</div>
+        <h3 class="pb-h3">Firma vypadá dobře, ale nemá reference. Jak vím, že to není jen hezký web?</h3>
+        <p class="pb-body">
+          Nebudeme vám říkat, že jsme postavili 1 500 domů. To by nebyla pravda. Řekneme vám ale toto: Miroslav za posledních 17 let testoval a analyzoval stovky dřevostaveb, hledal kombinaci materiálů, technologií a přístupu, která bude fungovat bez kompromisů.
+          <br><br>
+          <strong>Když Tesla přišla na trh, neměla žádné reference.</strong> Měla výpočty, technologii a odvahu říct: věřte nám. My přicházíme s kombinací CLT, VIP izolace a rekuperace Zehnder, která v ČR takhle zkombinovaná neexistuje. Certifikace materiálů jsou reálné. Výpočty jsou ověřené. A za každý parametr ručíme — peněženkou.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY TULIO -->
+<section class="why" id="why">
+  <div class="why-inner">
+    <div class="why-head fu">
+      <span class="section-tag">Proč to funguje jinak</span>
+      <h2 class="section-h2">Proč spolu fungují lépe,<br><em>než každý zvlášť.</em><br>A co to pro vás znamená.</h2>
+      <p class="section-intro">CLT panel, VIP izolace, Zehnder rekuperace — každý z těchto materiálů nebo technologií existoval i před námi. Ale nikdo je nedal dohromady takhle, a nikdo nepočítal, co se stane, když tvoří jeden celek.</p>
+    </div>
+
+    <div class="why-grid fu">
+
+      <div class="why-card">
+        <div class="why-stat">+6 <span class="why-unit">m²</span></div>
+        <div class="why-label">Více prostoru pro vás</div>
+        <p class="why-body-card">
+          VIP vakuová izolace izoluje 8× lépe než polystyren — a díky tomu mohou být naše stěny výrazně tenčí než u srovnatelného domu. <strong>V každých 30 m² zastavěné plochy máte o 6 m² navíc oproti standardní dřevostavbě.</strong> Méně stěny, více místnosti. Nikdy ji nepostavíme zpět.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-stat">≤500</div>
+        <div class="why-label">Kč měsíčně za vytápění</div>
+        <p class="why-body-card">
+          Pasivní standard znamená spotřebu ≤15 kWh/m²/rok. V praxi to jsou náklady na vytápění celého domu, které se vejdou na méně než jedno předplatné Netflixu. <strong>Zehnder rekuperace přitom vrací 90 % tepla zpět do místnosti</strong> — venku může být –15 °C, uvnitř 21 stupňů, a vy to skoro nepocítíte na účtu.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-stat">24/7</div>
+        <div class="why-label">Čerstvý vzduch</div>
+        <p class="why-body-card">
+          Rekuperace vyměňuje vzduch, aniž byste ztráceli teplo. Pyl, prach, přebytečné CO₂ — ven. Čistý, filtrovaný vzduch — dovnitř. <strong>V dřevostavbách, kde chybí vzduchotěsná obálka, se buď dusíte, nebo topíte oknem.</strong> Tato kombinace řeší obojí najednou, bez kompromisů.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-stat">0×</div>
+        <div class="why-label">Plíseň. Nikdy.</div>
+        <p class="why-body-card">
+          CLT panel je masivní dřevo — nedrží vlhkost, nepraská, nevede se v něm plíseň. Provětrávaná fasáda odvádí případnou vlhkost ještě před tím, než stihne způsobit škody. <strong>Dům dýchá spolu s vámi.</strong> A Blower-Door protokol, který dostanete při předání klíčů, to dokazuje čísly.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="process-inner">
+    <div class="process-head fu">
+      <span class="section-tag">Jak to probíhá</span>
+      <h2 class="section-h2">Od rozhodnutí k hotovému domu<br>vás čeká <em>pět kroků.</em></h2>
+      <p class="section-intro">Žádné překvapení v ceně. Žádné „přišel déšť a zdrželi jsme se." Takhle to chodí u nás.</p>
+    </div>
+
+    <div class="process-steps fu" style="position:relative;">
+      <div class="process-line"></div>
+
+      <!-- Krok 1 -->
+      <div class="ps">
+        <div class="ps-num">1</div>
+        <h3 class="ps-title">Nezávazná konzultace</h3>
+        <p class="ps-body">20 minut s Mirkem nebo Petrem. Probereme pozemek, záměr a variantu, která pro vás dává smysl. Zavolejte nebo napište — do 24 hodin odpovíme.</p>
+        <span class="ps-time">zdarma, nezávazně</span>
+      </div>
+
+      <!-- Krok 2 -->
+      <div class="ps">
+        <div class="ps-num">2</div>
+        <h3 class="ps-title">Financování a pozemek</h3>
+        <p class="ps-body">Nemáte pozemek nebo nevíte, jak na hypotéku? Díky síti partnerů vás provedeme celým procesem — od výběru parcely po nastavení financování tak, aby dávalo smysl vašemu rozpočtu.</p>
+        <span class="ps-time">dle vaší situace</span>
+      </div>
+
+      <!-- Krok 3 -->
+      <div class="ps">
+        <div class="ps-num">3</div>
+        <h3 class="ps-title">Projekt a povolení</h3>
+        <p class="ps-body">Stavební povolení je nejdelší krok celého procesu — ale pracujeme na něm v úzké spolupráci s vámi, protože za 17 let víme, kde jsou úskalí a jak je obejít. Žádné slepé čekání na razítka.</p>
+        <span class="ps-time">4–8 měsíců (záleží na úřadu)</span>
+      </div>
+
+      <!-- Krok 4 -->
+      <div class="ps">
+        <div class="ps-num">4</div>
+        <h3 class="ps-title">Výroba v hale</h3>
+        <p class="ps-body">CNC přesnost na milimetry. V naší výrobní hale nám nepřekáží počasí, nepřijiždějí pozdě řemeslníci a žádný detail se neřeší improvizovaně. Jeden modul zvládneme za 14 dní.</p>
+        <span class="ps-time">14 dní / modul</span>
+      </div>
+
+      <!-- Krok 5 -->
+      <div class="ps">
+        <div class="ps-num">5</div>
+        <h3 class="ps-title">Montáž a předání</h3>
+        <p class="ps-body">Přivezeme hotový dům a usadíme ho na váš pozemek. Montáž trvá 1–2 dny podle velikosti. Kolaudace, Blower-Door protokol, klíče — a od té doby se staráme my.</p>
+        <span class="ps-time">1–2 dny montáž</span>
+      </div>
+
+    </div>
+
+    <p class="process-note fu">
+      Celková doba od první konzultace k nastěhování se pohybuje od 6 do 12 měsíců — primárně kvůli stavebnímu povolení, na které nemáme přímý vliv. Co ale ovlivnit můžeme: kvalitu dokumentace, komunikaci s úřadem a to, abychom vás celým procesem bezpečně provázeli bez zbytečných zastávek.
+    </p>
+  </div>
+</section>
+
+<!-- FOUNDERS / PILOT -->
+<section class="founders" id="founders">
+  <div class="founders-inner">
+
+    <div class="fu">
+      <div class="founders-img">
+        <div class="founders-img-placeholder">
+          [FOTO: Petr (35) a Miroslav (60) stojí vedle sebe ve výrobní hale. Petr v košili, Mirek v pracovním fleece s logem TULIO. Přátelský, přímý pohled. Pozadí: CLT panely, čistá hala, světlo z vysokých oken. Autentické, ne korporátní.]
+        </div>
+        <div class="founders-badge">
+          <div class="founders-badge-num">4</div>
+          <div class="founders-badge-text">místa zbývají</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fu">
+      <span class="founders-eyebrow">Pilotní program</span>
+      <h2 class="founders-h2">Odvaha přivítat<br><em>inovaci dříve</em><br>než ostatní.</h2>
+      <p class="founders-lead">
+        První zákazníci Tesly neměli žádné reference. Měli přesvědčení, výpočty a odvahu říct ano dřív než ostatní. My přicházíme s kombinací technologií, která v ČR takhle zkombinovaná neexistuje — a certifikace, protokoly a Mirkových 17 let jsou naším závazkem, že za každý parametr ručíme peněženkou.
+        <br><br>
+        Hledáme 5 rodin, které to vidí jako příležitost. Výměnou za vaši důvěru nabízíme podmínky, které po spuštění prvních referenčních domů nenabídneme nikomu dalšímu.
+      </p>
+
+      <div class="benefits">
+        <div class="benefit">
+          <div class="benefit-icon">🔧</div>
+          <div>
+            <div class="benefit-title">5 let péče bez jediné starosti</div>
+            <div class="benefit-body">Jednou ročně přijede servisní tým TULIO a provede kompletní wellness prohlídku vašeho domu. Seřídíme okna, zkontrolujeme rekuperaci, vyměníme filtry, ošetříme fasádu a prověříme dům termokamerou. Vy jen bydlíte.</div>
+          </div>
+        </div>
+
+        <div class="benefit">
+          <div class="benefit-icon">🌡️</div>
+          <div>
+            <div class="benefit-title">5 let — náklady na topení platíme my</div>
+            <div class="benefit-body">Našim výpočtům věříme natolik, že za ně ručíme peněženkou. Prvních 5 let hradíme náklady na vytápění my. A máme pro vás výzvu: pokud se o dům budete starat vzorně a roční spotřeba klesne pod 5 000 Kč za vytápění — což je v našich domech možné — budeme vám topení platit i za každý takový rok. Vy nám dáte důvěru, my vám teplo domova zdarma.</div>
+          </div>
+        </div>
+
+        <div class="benefit">
+          <div class="benefit-icon">🌿</div>
+          <div>
+            <div class="benefit-title">Dřevěná terasa v hodnotě 50 000 Kč</div>
+            <div class="benefit-body">Chceme, abyste po nastěhování šlapali čistou cestou. Jako poděkování za status zakladatele vám k domu rovnou přistavíme dřevěnou terasu na naše náklady. Váš domov tak bude od prvního dne plynule propojen se zahradou.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="spots">
+        <div class="spot taken">✓</div>
+        <div class="spot">2</div>
+        <div class="spot">3</div>
+        <div class="spot">4</div>
+        <div class="spot">5</div>
+        <span class="spots-label">zbývají 4 z 5 míst</span>
+      </div>
+
+      <a href="#contact" class="btn-orange">Chci být mezi prvními →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story" id="story">
+  <div class="story-inner">
+
+    <div class="fu">
+      <span class="section-tag">Kdo jsme</span>
+      <blockquote class="story-quote">
+        "Trvalo nám 17 let, než jsme dali dohromady tu nejlepší kombinaci materiálů, technologií a přístupu k fungování firmy."<br>
+        <small style="font-size:0.55em; opacity:0.6; font-style:normal; letter-spacing:1px;">— Miroslav Štichauer, hlavní konstruktér</small>
+      </blockquote>
+      <p class="story-body">
+        Štichauer s.r.o. vzniklo v květnu 2025. Na trh jsme přišli v prosinci. Ale Miroslav pracuje na pasivních domech 17 let — dělal Blower-Door testy, analyzoval stovky dřevostaveb a hledal místa, kde se dělají chyby, které pak zákazníci platí roky. CLT konstrukce, vakuová izolace, vzduchotěsná obálka — tohle není novinka, která přišla s víkendovým kurzem.
+        <br><br>
+        Petr přinesl digitalizaci a přesvědčení, že cesta zákazníka musí být stejně dobře navržená jako samotný dům. Zdeňka drží vše pohromadě způsobem, který nejde naučit z knih. Děláme to proto, že špatné bydlení lidem bere léta života. A my víme, jak to udělat jinak.
+      </p>
+      <a href="/nas-pribeh" class="btn-dark">Číst celý příběh →</a>
+    </div>
+
+    <div class="team fu">
+      <div class="tm">
+        <div class="tm-av">M</div>
+        <div>
+          <div class="tm-name">Miroslav Štichauer</div>
+          <div class="tm-role">Hlavní konstruktér</div>
+          <div class="tm-bio">17 let s pasivními domy, Blower-Door testy a CLT konstrukcemi. Pokud v domě existuje tepelný most, Miroslav ho najde — a odstraní ho dřív, než se na něj zapomene.</div>
+        </div>
+      </div>
+      <div class="tm">
+        <div class="tm-av">P</div>
+        <div>
+          <div class="tm-name">Petr Štichauer</div>
+          <div class="tm-role">Strategie & AI inovace</div>
+          <div class="tm-bio">IT zázemí a vášeň pro automatizaci. Vidí TULIO jako produkt, ne stavbu — od prvního kliknutí na webu až po předání klíčů. Řídí procesy tak, aby chyby nevznikaly, ne jen aby se opravovaly.</div>
+        </div>
+      </div>
+      <div class="tm">
+        <div class="tm-av">Z</div>
+        <div>
+          <div class="tm-name">Zdeňka Štichauerová</div>
+          <div class="tm-role">Operace & Administrativa</div>
+          <div class="tm-bio">Tam, kde je potřeba — je Zdeňka. Drží firmu pohromadě způsobem, který nejde naprogramovat ani delegovat. Bez ní by to celé fungovalo o poznání hůř.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <span class="section-tag">Pojďme se pobavit</span>
+    <h2 class="contact-h2">Máte pozemek,<br>nebo jen <em>chuť žít lépe?</em></h2>
+    <p class="contact-lead">
+      Obojí je dobrý začátek. Rezervujte si zdarma hodinku našeho času — probereme vše, co vás zajímá, bez prodejního tlaku a bez závazků. Zavolejte přímo Mirkovi, napište na e-mail, nebo si vyberte termín online.
+    </p>
+    <div class="contact-cards">
+      <a href="tel:+420773781630" class="cc">
+        <div class="cc-icon">📞</div>
+        <div class="cc-title">Zavolejte Mirkovi</div>
+        <div class="cc-desc">Přímá linka na hlavního konstruktéra. Žádná recepce, žádné přepojování — jen člověk, který ví o každém detailu.</div>
+        <div class="cc-action">+420 773 781 630 →</div>
+      </a>
+      <a href="#" class="cc" onclick="alert('Zde bude Calendly nebo jiný booking widget')">
+        <div class="cc-icon">📅</div>
+        <div class="cc-title">Rezervovat hodinu zdarma</div>
+        <div class="cc-desc">Vyberte si termín online a probereme s vámi vše — pozemek, záměr, financování, možnosti. Hodina, která vám ušetří měsíce nejistoty.</div>
+        <div class="cc-action">Vybrat termín →</div>
+      </a>
+      <a href="mailto:info@tuliodomy.cz" class="cc">
+        <div class="cc-icon">✉️</div>
+        <div class="cc-title">Napište nám</div>
+        <div class="cc-desc">Pošlete parcelní číslo nebo jen pár řádků o tom, co hledáte. Zbytek zjistíme my a připravíme odpovědi ještě před prvním hovorem.</div>
+        <div class="cc-action">info@tuliodomy.cz →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="nl">
+  <div class="nl-inner">
+    <div class="nl-text">
+      <h3 class="nl-title">Zatím se jen rozhlížíte?</h3>
+      <p class="nl-desc">Jednou za měsíc posíláme záběry z výroby, tipy na pozemky a věci, které byste o modulárních domech měli vědět dřív, než se rozhodnete. Žádný spam — jen obsah, pro který stojí za to otevřít e-mail.</p>
+    </div>
+    <form class="nl-form" onsubmit="return false;">
+      <input type="email" class="nl-input" placeholder="váš@email.cz">
+      <button type="submit" class="btn-orange">Odebírat</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <span class="footer-logo">TULIO<span>.</span></span>
+      <p class="footer-tagline">Prémiové modulární domy z CLT, VIP izolace a rekuperace Zehnder. Výroba v hale na milimetry přesně, montáž na pozemku za dny. Pasivní standard bez kompromisů.</p>
+      <p class="f-contact"><a href="tel:+420773781630">+420 773 781 630</a></p>
+      <p class="f-contact"><a href="mailto:info@tuliodomy.cz">info@tuliodomy.cz</a></p>
+      <p class="f-contact" style="color:rgba(255,255,255,0.3)">Starobělská 1937/4, 700 30 Ostrava</p>
+    </div>
+    <div>
+      <div class="f-col-h">Domy</div>
+      <ul class="f-links">
+        <li><a href="#">TULIO Living — rodinné domy</a></li>
+        <li><a href="#">TULIO Relax — rekreace</a></li>
+        <li><a href="#">Pilotní program</a></li>
+        <li><a href="#">Ceny a dotace</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-h">Informace</div>
+      <ul class="f-links">
+        <li><a href="#">Technologie a materiály</a></li>
+        <li><a href="#">Legislativa a povolení</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-h">Firma</div>
+      <ul class="f-links">
+        <li><a href="#">Náš příběh</a></li>
+        <li><a href="/pro-investory">Pro investory</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#" style="color:rgba(255,255,255,0.28)">IČ: 23312980</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Štichauer s.r.o. — TULIO Domy</span>
+    <span><a href="#" style="color:rgba(255,255,255,0.28);text-decoration:none;">Ochrana osobních údajů</a></span>
+  </div>
+</footer>
+
+<script>
+/* ─── HERO CAROUSEL ─── */
+const SLIDE_DURATION = 50000; // 7s per slide
+const slides = document.querySelectorAll('.hero-slide');
+const dots = document.querySelectorAll('.hero-dot');
+const counter = document.getElementById('heroCounter');
+const fill = document.getElementById('progressFill');
+const track = document.getElementById('heroTrack');
+let cur = 0, timer, prog, progStart;
+
+function goTo(idx) {
+  slides[cur].classList.remove('is-active');
+  dots[cur].classList.remove('on');
+  cur = (idx + slides.length) % slides.length;
+  slides[cur].classList.add('is-active');
+  dots[cur].classList.add('on');
+  track.style.transform = `translateX(-${cur * 100}%)`;
+  counter.textContent = `0${cur + 1} / 0${slides.length}`;
+  startProgress();
+}
+
+function startProgress() {
+  cancelAnimationFrame(prog);
+  fill.style.transition = 'none';
+  fill.style.width = '0%';
+  progStart = performance.now();
+  function tick(ts) {
+    const pct = Math.min((ts - progStart) / SLIDE_DURATION * 100, 100);
+    fill.style.transition = 'none';
+    fill.style.width = pct + '%';
+    if (pct < 100) prog = requestAnimationFrame(tick);
+  }
+  prog = requestAnimationFrame(tick);
+}
+
+function startAuto() { timer = setInterval(() => goTo(cur + 1), SLIDE_DURATION); }
+function resetAuto() { clearInterval(timer); startAuto(); }
+
+document.getElementById('heroNext').addEventListener('click', () => { goTo(cur + 1); resetAuto(); });
+document.getElementById('heroPrev').addEventListener('click', () => { goTo(cur - 1); resetAuto(); });
+dots.forEach(d => d.addEventListener('click', () => { goTo(+d.dataset.i); resetAuto(); }));
+
+// Swipe support for mobile
+let touchX = null;
+document.querySelector('.hero').addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, {passive:true});
+document.querySelector('.hero').addEventListener('touchend', e => {
+  if (touchX === null) return;
+  const dx = e.changedTouches[0].clientX - touchX;
+  if (Math.abs(dx) > 50) { dx < 0 ? goTo(cur + 1) : goTo(cur - 1); resetAuto(); }
+  touchX = null;
+}, {passive:true});
+
+// show second slide hint on mobile after 1s pause (then resumes)
+// Actually: just start normally — user sees dots = knows there's more
+goTo(0);
+startAuto();
+
+/* ─── SCROLL FADE-UP ─── */
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('vis'), i * 90);
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -48px 0px' });
+document.querySelectorAll('.fu').forEach(el => obs.observe(el));
+
+/* ─── NAVBAR SHADOW ─── */
+window.addEventListener('scroll', () => {
+  document.getElementById('topnav').style.boxShadow =
+    window.scrollY > 48 ? '0 4px 24px rgba(28,26,22,0.09)' : 'none';
+}, {passive: true});
+</script>
+</body>
+</html>
