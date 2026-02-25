@@ -1,0 +1,108 @@
+// This file is meant to be edited automatically by the user. The variables it
+// contains should not be renamed otherwise it would break existing customers
+// customizations.
+
+// This file is meant to be edited automatically by the user. The variables it
+// contains should not be renamed otherwise it would break existing customers
+// customizations.
+$o-user-website-values: map-merge($o-user-website-values, o-map-omit((
+    'menu-gradient': NULL,
+    'menu-secondary-gradient': null,
+    'footer-gradient': NULL,
+    'copyright-gradient': NULL,
+    'o-cc1-bg-gradient': null,
+    'o-cc2-bg-gradient': null,
+    'o-cc3-bg-gradient': null,
+    'o-cc4-bg-gradient': null,
+    'o-cc5-bg-gradient': null,
+    'font': 'DM Sans',
+    'headings-font': 'Fraunces',
+    'navbar-font': 'DM Sans',
+    'buttons-font': null,
+    'color-palettes-number': null,
+    'color-palettes-name': null,
+    'btn-ripple': false,
+    'header-template': boxed,
+    'footer-template': centered,
+    'footer-scrolltop': false,
+    'hamburger-position-mobile': right,
+    'header-links-style': outline,
+    'header-scroll-effect': fixed,
+    'btn-primary-outline': false,
+    'btn-primary-flat': false,
+    'btn-font-size': 1.875rem,
+    'btn-padding-y': 0.625rem,
+    'btn-padding-x': 1.25rem,
+    'btn-border-radius': 1.25rem,
+    'btn-border-radius-sm': 0.3125rem,
+    'btn-secondary-outline': false,
+    'btn-secondary-flat': false,
+    'btn-primary-outline-border-width': 0.1875rem,
+    'btn-secondary-outline-border-width': 0.1875rem,
+    'link-underline': always,
+    'layout': full,
+    'body-image-type': 'image',
+    'body-image': null,
+    'google-fonts': null,
+    'google-local-fonts': ('Varela Round': 3669, 'Quicksand': 3681, 'Fraunces': 4713, 'DM Sans': 4763),
+    'uploaded-local-fonts': null,
+    'footer-effect': slideout_shadow,
+    'menu-box-shadow': rgba(0, 0, 0, 0.15) 0px 8px 16px 0px,
+    'display-1-font': 'DM Sans',
+    'display-2-font': 'Fraunces',
+    'header-font-size': 1rem,
+    'menu-border-radius': 20px,
+    'menu-border-width': 0px,
+    'input-border-width': 0rem,
+    'font-size-base': 1.0625rem,
+    'body-line-height': 1.7,
+    'h1-font-size': 2.9375rem,
+    'h2-font-size': 2rem,
+    'h3-font-size': 1.375rem,
+    'display-1-font-size': 1.125rem,
+    'headings-line-height': 1.07,
+    'h2-line-height': 1.1,
+    'h3-line-height': 1.25,
+    'display-1-line-height': 1.7,
+    'display-2-font-size': 0.9375rem,
+    'headings-margin-bottom': 22px,
+    'display-1-margin-bottom': 14px,
+    'display-2-margin-bottom': 10px,
+    'display-2-line-height': 1.5,
+    // -- hook --
+)));
+
+$o-user-color-palette: map-merge($o-user-color-palette, o-map-omit((
+    'o-color-1': #A5BE00, // TULIO Lime
+    'o-color-2': #E67E22, // TULIO Orange
+    'o-color-3': #F3E9DC, // TULIO Linen
+    'o-color-4': #FFFFFF, // TULIO White
+    'o-color-5': #1C1A16, // TULIO Dark (nahrazeno za čistě černou pro prémiovější vzhled)
+    'o-cc5-bg': #FFFFFF,
+    'o-cc5-text': #1C1A16,
+    'o-cc5-headings': #1C1A16,
+    'menu': 5,
+    'footer': 2,
+    'o-cc5-link': #A5BE00,
+    'o-cc1-link': #1C1A16,
+    'o-cc5-btn-primary': #FFFFFF,
+    'o-cc5-btn-secondary': #E67E22,
+    'o-cc5-btn-secondary-border': #E67E22,
+    'o-cc1-btn-primary': #A5BE00,
+    'o-cc5-btn-primary-border': #A5BE00,
+    'o-cc1-btn-secondary-border': #FFFFFF,
+    'o-cc1-btn-secondary': #FFFFFF,
+    'o-cc4-btn-primary': #FFFFFF,
+    'o-cc1-btn-primary-border': #FFFFFF,
+    'copyright': 2,
+    'o-cc2-bg': #F3E9DC,
+    'o-cc2-btn-secondary': #FFFFFF,
+    'o-cc2-btn-secondary-border': #E67E22,
+    'o-cc2-btn-primary-border': #FFFFFF,
+    'menu-border-color': #FFFFFF,
+    // -- hook --
+)));
+
+$o-user-theme-color-palette: map-merge($o-user-theme-color-palette, o-map-omit((
+    // -- hook --
+)));

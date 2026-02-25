@@ -1,0 +1,352 @@
+<t name="Homepage" t-name="website.homepage">
+    <t t-call="website.layout" pagename.f="homepage">
+        <div id="wrap" class="oe_structure oe_empty"><section class="s_embed_code pt16 pb16 o_colored_level text-center" data-snippet="s_embed_code" data-name="Embed kód">
+        <template class="s_embed_code_saved"><script src="https://fast.wistia.com/player.js" async=""/><script src="https://fast.wistia.com/embed/vu687slih1.js" async="" type="module"/><style>wistia-player[media-id='vu687slih1']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/vu687slih1/swatch'); display: block; filter: blur(5px); padding-top:56.25%; }</style> <wistia-player media-id="vu687slih1" aspect="1.7777777777777777"/></template>
+        <div class="s_embed_code_embedded o_not_editable container"><script src="https://fast.wistia.com/player.js" async=""/><script src="https://fast.wistia.com/embed/vu687slih1.js" async="" type="module"/><style>wistia-player[media-id='vu687slih1']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/vu687slih1/swatch'); display: block; filter: blur(5px); padding-top:56.25%; }</style><wistia-player media-id="vu687slih1" aspect="1.7777777777777777"/></div>
+    </section><section class="s_text_cover o_colored_level o_cc o_cc5 pb0 d-lg-none o_snippet_desktop_invisible" data-snippet="s_text_cover" data-name="Textová obálka" data-invisible="1">
+        <div class="container-fluid">
+            <div class="row o_grid_mode" data-row-count="14" style="row-gap: 20px;">
+                
+                
+            <div class="o_grid_item o_colored_level g-col-lg-8 rounded g-height-14 col-lg-8 d-lg-block d-none o_snippet_mobile_invisible" style="z-index: 2; grid-area: 1 / 3 / 15 / 11; --box-border-bottom-left-radius: 0px; --box-border-bottom-right-radius: 0px; --box-border-top-right-radius: 0px; --box-border-top-left-radius: 0px;" data-invisible="1"><div data-oe-expression="//www.youtube.com/embed/pvDxUgzjXcE?rel=0&amp;autoplay=1&amp;start=1&amp;mute=1&amp;enablejsapi=1&amp;controls=0&amp;loop=1&amp;playlist=pvDxUgzjXcE" class="media_iframe_video"/></div></div>
+        </div>
+    </section><section class="s_color_blocks_2 o_colored_level" data-snippet="s_color_blocks_2" data-name="Velké boxy" style="position: relative;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="o_cc col-lg-5 offset-lg-1 pt40 o_colored_level pb48 order-lg-0 o_cc1" style="order: 1;">
+                    <h1>Víkendový relax TULIO</h1><h2><span class="h4-fs">Chceme prostor pro RELAX...</span></h2>
+                    <p>Tohle je volba pro snílky, workoholiky hledající klid nebo investory. Nazýváme to "nebydlení", ale nenechte se zmást – technická kvalita stěn a izolace je téměř identická jako u našich rodinných domů. V zimě vám zima nebude.</p><p>Rozdíl je v papírech. Tyto stavby legislativně spadají pod rekreační objekty, zahradní domky nebo ateliéry. Díky tomu se vyhnete zdlouhavému stavebnímu řízení a kolaudaci na rodinný dům. Můžete tu tvořit nebo relaxovat hned teď - bez čekání a bez zbytečných razítek.</p><ul><li><strong>Ideální pro:</strong>&amp;nbsp;víkendové chaty, wellness, domácí kanceláře a ateliéry.</li><li><strong>Hlavní výhoda:</strong>&amp;nbsp;podobná tepelná pohoda jako v domě, ale s minimem papírování a rychlejší realizací.</li></ul><p style="text-align: left;"><span class="h3-fs">Od 1,2 mil. Kč s 21% DPH</span></p><p style="text-align: left;"><br/></p><a class="btn btn-primary" href="https://tuliodomy.cz/vikendovy-relax">Hledám únik do přírody</a></div>
+                <div class="o_cc o_colored_level pt32 pb40 col-lg-5 order-lg-0 o_cc1" style="text-align: left; order: 0;">
+                    <h2 class="h3-fs"><span class="h1-fs"> Rodinné domy&amp;nbsp;TULIO</span></h2><h2><span class="h4-fs">Chceme DOMOV...</span></h2>
+                    <p>Tohle je volba, pokud hledáte plnohodnotnou náhradu bytu či domu se vším všudy. Tyto moduly splňují nejpřísnější legislativní normy pro <strong>trvalé bydlení</strong>. Mají větší světlou výšku stropů než udávají normy, splňují hlukové limity a energetické štítky, na které vám banka ráda půjčí a stát přispěje dotacemi.</p><p>Je to cesta pro rodinu, která chce kořeny. Vyřídíme s vámi stavební povolení, kolaudaci a vy získáte adresu, kam vám i pošťák donese dopisy. Je to dům, který je pevně spojen se zemí i se životem vaší rodiny.</p><ul><li><strong>Ideální pro:</strong>&amp;nbsp;trvalý pobyt, mladé páry, rodiny s dětmi, čerpání dotací (Nová zelená úsporám).</li><li><strong>Hlavní výhoda:</strong>&amp;nbsp;je to 100% legální rodinný dům, jen postavený chytřeji a rychleji.<br/><br/></li></ul><p><span class="h3-fs">Od 2,5&amp;nbsp;mil. Kč s 12% DPH&amp;nbsp;</span></p><p><br/></p><a class="btn btn-primary" href="https://tuliodomy.cz/rodinne-tulio">Chci bydlet trvale</a></div>
+            </div>
+        </div>
+    </section><div class="s_hr pt32 pb32 o_colored_level" data-snippet="s_hr" data-name="Oddělovač">
+        <hr class="w-100 mx-auto"/>
+    </div><section class="s_key_benefits o_colored_level pt0 pb0" data-snippet="s_key_benefits" data-name="Klíčové výhody" style="position: relative;" data-oe-shape-data="{&quot;shape&quot;:&quot;html_builder/Connections/06&quot;,&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;shapeAnimationSpeed&quot;:&quot;0&quot;}"><div class="o_we_shape o_html_builder_Connections_06"/>
+        
+        <div class="container">
+            <h2 class="display-3-fs" style="text-align: center;">Proč TULIO?</h2>
+            <div class="row">
+                <div class="col-lg-4 pt48 pb24 o_colored_level o_cc o_cc5">
+                    <span class="fa fa-external-link fa-5x mx-auto d-block" style="color: rgb(165, 190, 0);"/>
+                    
+                    <h3 class="h4-fs" style="text-align: center;"><br/>Jediný dům, který můžete zvětšit, když se rodina rozroste.</h3>
+                    <p style="text-align: center;">Proč se zadlužit&amp;nbsp;za pokoje, které teď nepotřebujete? Kupte si jeden modul dnes, až přijde dítě, "přicvaknete" další a až si dítě koupí své vlastní startovací TULIO,&amp;nbsp;z modulu si uděláte wellness nebo pokoj pro hosty.</p><p><br/></p><p style="text-align: center;"><a class="o_translate_inline btn btn-primary" href="/blog/blog-tulio-2/dum-ktery-roste-s-vami-jak-tulio-resi-hypoteku-i-budoucnost-bez-bourani-24"><span style="font-size: 20px;">Jak naše domy rostou?</span></a></p>
+                </div><div class="col-lg-4 pt48 pb24 o_colored_level o_cc o_cc5">
+                    <span class="fa fa-clock-o fa-5x mx-auto d-block" style="color: rgb(165, 190, 0);"/>
+                    
+                    <h3 class="h4-fs" style="text-align: center;"><br/>Zatímco soused maká na základech, vy už grilujete na terase.</h3>
+                    <p style="text-align: center;">Díky výrobě v hale a automatizaci zkracujeme proces z roku na 2 měsíce. Bez stresu z počasí a řemeslníků, co nepřišli na stavbu nebo si zapomněli kus nářadí doma.<br/><br/></p><p style="text-align: center;"><a class="o_translate_inline btn btn-primary" href="/blog/blog-tulio-2/dum-za-2-mesice-proc-soused-zdi-2-roky-a-vy-uz-grilujete-technicka-analyza-25"><span style="font-size: 20px;"><span class="h4-fs">2 měsíce? Ano, takhle rychle</span></span></a></p>
+                </div><div class="col-lg-4 pt48 pb24 o_colored_level o_cc o_cc5">
+                    <span class="fa fa-search fa-5x mx-auto d-block" style="color: rgb(165, 190, 0);"/>
+                    
+                    <h3 class="h4-fs" style="text-align: center;"><br/>Bavíme se s vámi na rovinu bez poznámek pod čarou.</h3>
+                    <p style="text-align: center;">&amp;nbsp;Řekneme vám přesně, na co jde vzít hypotéku, co jde zkolaudovat, co jde pojistit a co je "jen" nejlepší chata vašeho života.<br/><br/></p><p style="text-align: center;"><a class="btn btn-primary" href="https://tuliodomy.cz/blog/blog-tulio-2/past-na-stavebniky-proc-vam-bydleni-v-zahradnim-domku-znici-zivot-a-jak-to-udelat-legalne-26"><span style="font-size: 20px;">Co je to&amp;nbsp;past jménem tinyhouse?</span></a></p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section><div class="s_hr o_colored_level pt0 pb64" data-snippet="s_hr" data-name="Oddělovač">
+        <hr class="w-100 mx-auto"/>
+    </div><section class="s_features_wave o_cc o_cc5 o_colored_level pt32 pb40 s_custom_snippet d-lg-none o_snippet_desktop_invisible" data-snippet="s_features_wave" style="position: relative;" id="Hled%C3%A1me-3-vizion%C3%A1%C5%99e-a-odm%C4%9Bn%C3%ADme-va%C5%A1i-odvahu" data-anchor="true" data-name="Zakladatelský program" data-invisible="1">
+        <div class="container">
+            
+            
+            
+            <div class="row o_grid_mode" data-row-count="38">
+                
+                
+                
+                
+                
+                
+            <div class="o_grid_item o_colored_level g-col-lg-8 offset-1 offset-lg-0 col-lg-8 order-lg-0 col-10 g-height-6" style="z-index: 17; grid-area: 1 / 3 / 7 / 11; order: 0;"><h2 class="h3-fs" style="text-align: center;"><span class="h1-fs">Hledáme 5&amp;nbsp;vizionářů a odměníme vaši odvahu</span><br/></h2><p style="text-align: center;"><span class="h5-fs"><br/>Naše kombinace technologií <strong>předbíhá dobu</strong> a naše výpočty jsou přesné na setiny, ale chápeme –<strong> jsme nová značka</strong> a vy jste ti první, kdo s námi půjde "do neznáma".</span></p><p style="text-align: center;"><span class="h5-fs">Nebudeme vás lákat na klíčenky. Nabízíme partnerství, které dává oběma stranám finanční smysl a dokazuje, že si za svou prací stojíme peněženkou, nejen slovy.</span></p></div><div class="o_grid_item o_grid_item_image o_grid_item_image_contain o_colored_level g-col-lg-5 g-height-18 col-lg-5 order-lg-0" style="z-index: 15; grid-area: 17 / 7 / 35 / 12; order: 4;"><img src="/html_editor/shape/illustration/maker-launchsvg-3730?c1=o-color-1&amp;unique=ab760200" alt="" data-attachment-id="3730" class="img img-fluid mx-auto o_we_custom_image rounded" loading="lazy" role="presentation" data-mimetype="undefined"/></div><div class="o_colored_level o_grid_item g-col-lg-3 offset-1 offset-lg-0 col-lg-3 g-height-10 col-10 order-lg-0" style="z-index: 11; --grid-item-padding-x: 20px; grid-area: 7 / 2 / 17 / 5; order: 1;">
+                    <i class="fa fa-heartbeat d-block mx-auto rounded fa-5x border" style="background-color: rgba(0, 0, 0, 0); color: rgb(165, 190, 0); --box-border-left-width: 0px; --box-border-bottom-width: 0px; --box-border-right-width: 0px; --box-border-top-width: 0px;" role="presentation"/>
+                    <br/>
+                    <h4 style="text-align: center;">5 let péče bez starostí</h4>
+                    <p style="text-align: center;"><span style="font-size: 18px;">Zapomeňte na údržbu. Prvních 5 let se o váš dům staráme my. Jednou ročně přijede servisní tým TULIO na "wellness prohlídku" – seřídíme okna, zkontrolujeme rekuperaci, vyměníme filtry, ošetříme fasádu a prověříme dům termokamerou. Vy jen bydlíte, my garantujeme kondici domu.</span></p>
+                </div><div class="o_colored_level o_grid_item offset-1 offset-lg-0 g-col-lg-4 col-10 g-height-10 col-lg-4 order-lg-0" style="z-index: 12; --grid-item-padding-x: 20px; grid-area: 7 / 5 / 17 / 9; order: 2;">
+                    <i class="fa fa-flash d-block mx-auto rounded fa-5x border" style="background-color: rgba(0, 0, 0, 0); color: rgb(165, 190, 0); border-left-color: var(--o-color-5) !important; border-bottom-color: var(--o-color-5) !important; border-right-color: var(--o-color-5) !important; border-top-color: var(--o-color-5) !important; --box-border-left-width: 0px; --box-border-bottom-width: 0px; --box-border-right-width: 0px; --box-border-top-width: 0px;" role="presentation"/>
+                    <br/>
+                    <h4 style="text-align: center;">5 let účty za topení platíme my</h4>
+                    <p style="text-align: center;"><span style="font-size: 18px;">Našim výpočtům věříme tak, že za ně ručíme peněženkou. Prvních 5 let hradíme náklady na vytápění my.</span></p><p style="text-align: center;"><span style="font-size: 18px;">A máme pro vás výzvu: Pokud se o dům budete starat vzorně a roční spotřeba klesne pod 5 000 Kč za vytápění (což je v našich domech možné), budeme vám topení platit i za každý takový rok. Vy nám dáte důvěru, my vám teplo domova zdarma.</span></p>
+                </div><div class="o_colored_level o_grid_item g-col-lg-3 offset-1 offset-lg-0 col-lg-3 g-height-9 col-10 order-lg-0" style="z-index: 13; --grid-item-padding-x: 20px; grid-area: 8 / 9 / 17 / 12; order: 3;">
+                    <i class="fa fa-edit d-block mx-auto border fa-5x" style="background-color: rgba(0, 0, 0, 0); color: rgb(165, 190, 0); border-left-color: var(--o-color-5) !important; border-bottom-color: var(--o-color-5) !important; border-right-color: var(--o-color-5) !important; border-top-color: var(--o-color-5) !important; --box-border-left-width: 0px; --box-border-bottom-width: 0px; --box-border-right-width: 0px; --box-border-top-width: 0px;" role="presentation"/>
+                    <br/>
+                    <h4 style="text-align: center;">Terasa za 50 000 Kč jako dárek</h4>
+                    <p style="text-align: center;"><span style="font-size: 18px;">Chceme, abyste po nastěhování šlapali čistou cestou. Jako poděkování za status Zakladatele vám k domu rovnou přistavíme dřevěnou terasu na naše náklady. Váš domov tak bude od prvního dne plynule propojen se zahradou.</span></p>
+                </div><div class="o_grid_item o_colored_level offset-1 offset-lg-0 g-col-lg-5 g-height-15 order-lg-0 col-10 col-lg-5" style="z-index: 14; --grid-item-padding-x: 20px; grid-area: 17 / 2 / 32 / 7; order: 5;"><h2 class="h3-fs" style="text-align: left;"><span class="h1-fs">Co za to chceme?</span></h2><h4><br/></h4><h4><strong>1. Hledáme váš příběh, ne anonymitu</strong></h4><p><span style="font-size: 18px;">Nehledáme jen někoho, kdo si koupí dům a zavře dveře. Chceme partnery, kteří nám dovolí zaznamenat zrod jejich domova. Požadujeme možnost profesionálně zdokumentovat celý proces – od výroby až po zabydlení. To znamená souhlas s nafocením interiéru i exteriéru a natočením krátkého videa o vašich zkušenostech po několika měsících bydlení. Váš dům se stane naší referenční chloubou a důkazem, že pasivní bydlení v TULIO funguje i v praxi, nejen na papíře.</span></p><h4><strong>2. Upřímnou zpětnou vazbu (i tu kritickou)</strong></h4><p><span style="font-size: 18px;">Protože jsme na začátku, potřebujeme vědět, co funguje skvěle a co můžeme zlepšit. Jako Zakladatelé budete mít přímou linku na Petra a Miroslava, ale na oplátku očekáváme vaši otevřenost. Ať už půjde o detaily ve výrobě, komunikaci nebo každodenní život v domě, vaše postřehy nám pomohou ladit procesy pro budoucí zákazníky. Výměnou za nadstandardní péči a garance chceme slyšet vaši pravdu, abychom mohli být nejlepší na trhu.</span></p><h4><strong>3. Odpovědný přístup k inovacím</strong></h4><p><span style="font-size: 18px;">Nabízíme vám unikátní benefity, například proplácení energií, které vyžadují vzájemnou důvěru. Očekáváme od vás zodpovědný přístup k užívání domu a jeho technologií. Nejde o omezování vašeho komfortu, ale o férovou spolupráci, kde my ručíme peněženkou za kvalitu našeho pasivního standardu a vy dům užíváte tak, jak byl navržen. Pokud společně prokážeme, že dům funguje efektivně, odměníme vaši loajalitu.</span></p></div><div class="o_grid_item g-height-2 o_colored_level g-col-lg-10 col-lg-10 order-lg-0" style="z-index: 16; grid-area: 37 / 2 / 39 / 12; order: 6;"><div data-vxml="001" data-list-id="2" data-name="Newsletter" data-snippet="s_newsletter_subscribe_form" class="s_newsletter_subscribe_form s_newsletter_list js_subscribe">
+        <div class="js_subscribed_wrap d-none">
+            <p class="h4-fs text-center text-success"><i role="img" class="fa fa-check-circle-o"/>&amp;nbsp;Těšíme se na spolupráci!</p>
+        </div>
+        <div class="js_subscribe_wrap">
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Emailová adresa" class="s_newsletter_subscribe_form_input js_subscribe_value form-control" style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiByeD0iNCIgZmlsbD0iI0I0QjRCNCIvPgo8cGF0aCBkPSJNOC4wMDAwMyAyLjVDNy4zODUyOCAyLjUgNi44MTIwOSAyLjY3MjY1IDYuMzI0MTQgMi45NzIyM0M2LjA4ODgxIDMuMTE2NzIgNS43ODA5MiAzLjA0MzA3IDUuNjM2NDMgMi44MDc3NEM1LjQ5MTk1IDIuNTcyNDIgNS41NjU1OSAyLjI2NDUyIDUuODAwOTIgMi4xMjAwNEM2LjQ0MTU5IDEuNzI2NjkgNy4xOTUxNSAxLjUgOC4wMDAwMyAxLjVDOS40ODE5NiAxLjUgMTAuNzg0MyAyLjI2NzA4IDExLjUzNjMgMy40MjM2OEwxMS41NDA4IDMuNDMwMThDMTEuNTQ3MyAzLjQzOTY3IDExLjU1NTggMy40NTI0IDExLjU2NjIgMy40NjgyN0MxMS41ODY4IDMuNDk5OTggMTEuNjE0NSAzLjU0NDM0IDExLjY0NyAzLjYwMDQ2QzExLjcxMTggMy43MTI1NCAxMS43OTYgMy44NzI2MSAxMS44Nzk3IDQuMDczN0MxMi4wNDY4IDQuNDc0NjggMTIuMjE2IDUuMDQ3ODkgMTIuMjIgNS43MzMyOEwxMi4yMiA1LjczNjIxQzEyLjIyIDcuOTQxNzggMTAuNTM5OCA5Ljc1NjYzIDguMzkwNjIgOS45NTQ1M1YxMi40NDZDOC45ODMzMiAxMi4zODI2IDkuNTA0NzggMTIuMjY0MiA5LjgyMTQyIDEyLjExMDNDMTAuMDY5OCAxMS45ODk2IDEwLjM2OSAxMi4wOTMgMTAuNDg5NyAxMi4zNDE0QzEwLjYxMDQgMTIuNTg5NyAxMC41MDcgMTIuODg4OSAxMC4yNTg2IDEzLjAwOTdDOS43NzM1NSAxMy4yNDU1IDkuMDc4ODkgMTMuMzg1MiA4LjM5MDYyIDEzLjQ1MTFWMTRDOC4zOTA2MiAxNC4yNzYxIDguMTY2NzYgMTQuNSA3Ljg5MDYyIDE0LjVDNy42MTQ0OCAxNC41IDcuMzkwNjIgMTQuMjc2MSA3LjM5MDYyIDE0VjkuNDcyNDNDNy4zOTA2MiA5LjE5NjI4IDcuNjE0NDggOC45NzI0MyA3Ljg5MDYyIDguOTcyNDNIOC4wMDAwM0M5Ljc3NTg1IDguOTcyNDMgMTEuMjE5MiA3LjUyNjM3IDExLjIyIDUuNzM3NjlDMTEuMjE2NyA1LjIxMzY0IDExLjA4NjkgNC43NzA5MSAxMC45NTY2IDQuNDU4MjNDMTAuODkxNyA0LjMwMjM0IDEwLjgyNzYgNC4xODEwNiAxMC43ODEzIDQuMTAxMDVDMTAuNzU4MiA0LjA2MTEyIDEwLjczOTcgNC4wMzE3MyAxMC43MjggNC4wMTM3MkMxMC43MjIyIDQuMDA0NzMgMTAuNzE4IDMuOTk4NiAxMC43MTU4IDMuOTk1NDRMMTAuNzE0NSAzLjk5MzQzTDEwLjcxNDIgMy45OTMwOEMxMC43MSAzLjk4NzEgMTAuNzA1OCAzLjk4MTAyIDEwLjcwMTkgMy45NzQ4NkMxMC4xMjY1IDMuMDg1NDcgOS4xMzA3NSAyLjUgOC4wMDAwMyAyLjVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNS4wNzMzMiAzLjM3NjEzQzUuMzA5ODMgMy41MTg2NiA1LjM4NjAzIDMuODI1OTQgNS4yNDM1IDQuMDYyNDZDNC45NDk0OCA0LjU1MDM2IDQuNzgwMDMgNS4xMjI1OCA0Ljc4MDAzIDUuNzM2MjFWOS42Mzg1NkM0Ljc4MDAzIDkuOTE0NyA0LjU1NjE3IDEwLjEzODYgNC4yODAwMyAxMC4xMzg2QzQuMDAzODkgMTAuMTM4NiAzLjc4MDAzIDkuOTE0NyAzLjc4MDAzIDkuNjM4NTZWNS43MzYyMUMzLjc4MDAzIDQuOTM1ODUgNC4wMDE2MiA0LjE4NTgxIDQuMzg2OTkgMy41NDYzMUM0LjUyOTUyIDMuMzA5OCA0LjgzNjggMy4yMzM2IDUuMDczMzIgMy4zNzYxM1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik04LjAwMDA0IDQuMjUzOTdDNy4xODY0MiA0LjI1Mzk3IDYuNTI2ODYgNC45MTM1NCA2LjUyNjg2IDUuNzI3MTZWMTIuMDJDNi41MjY4NiAxMi4yOTYyIDYuMzAzIDEyLjUyIDYuMDI2ODYgMTIuNTJDNS43NTA3MSAxMi41MiA1LjUyNjg2IDEyLjI5NjIgNS41MjY4NiAxMi4wMlY1LjcyNzE2QzUuNTI2ODYgNC4zNjEyNSA2LjYzNDE0IDMuMjUzOTcgOC4wMDAwNCAzLjI1Mzk3QzkuMzY1OTUgMy4yNTM5NyAxMC40NzMyIDQuMzYxMjUgMTAuNDczMiA1LjcyNzE2QzEwLjQ3MzIgNy4wOTMwNiA5LjM2NTk1IDguMjAwMzUgOC4wMDAwNCA4LjIwMDM1QzcuNzIzOSA4LjIwMDM1IDcuNTAwMDQgNy45NzY0OSA3LjUwMDA0IDcuNzAwMzVDNy41MDAwNCA3LjQyNDIgNy43MjM5IDcuMjAwMzUgOC4wMDAwNCA3LjIwMDM1QzguODEzNjYgNy4yMDAzNSA5LjQ3MzIzIDYuNTQwNzggOS40NzMyMyA1LjcyNzE2QzkuNDczMjMgNC45MTM1NCA4LjgxMzY2IDQuMjUzOTcgOC4wMDAwNCA0LjI1Mzk3WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==&quot;) !important; background-position: right 12px center !important; background-repeat: no-repeat !important; background-size: auto !important;"/>
+                <a role="button" href="#" class="js_subscribe_btn o_submit btn btn-primary"><p>Stát se<br/>zakladatelem</p></a>
+            </div>
+        </div>
+    </div></div></div>
+        </div>
+    </section><section class="s_features_wave o_cc o_cc5 pt32 pb40 s_custom_snippet o_colored_level d-none o_snippet_mobile_invisible d-lg-block" data-snippet="s_features_wave" style="position: relative;" data-name="Zakladatelský program" data-invisible="1">
+        <div class="container">
+            
+            
+            
+            <div class="row">
+                
+                
+                
+                
+                
+                
+            <div class="offset-1 order-lg-0 col-10 o_colored_level col-lg-10 offset-lg-1" style="order: 0;"><h2 class="h3-fs" style="text-align: center;"><span class="h1-fs">Hledáme 5&amp;nbsp;vizionářů a odměníme vaši odvahu</span><br/></h2><p style="text-align: center;"><span class="h5-fs"><br/>Naše kombinace technologií <strong>předbíhá dobu</strong> a naše výpočty jsou přesné na desetiny, ale chápeme –<strong> jsme nová značka</strong> a vy jste ti první, kdo s námi půjde "do neznáma" do nového rodinného domu.</span></p><p style="text-align: center;"><span class="h5-fs">Nebudeme vás lákat na klíčenky. Nabízíme partnerství, které dává oběma stranám finanční smysl a dokazuje, že si za svou prací stojíme peněženkou, nejen slovy.</span></p></div></div>
+        </div>
+    </section><section class="s_features_wave o_cc o_cc5 pt32 pb40 s_custom_snippet d-none o_snippet_mobile_invisible o_colored_level d-lg-block" data-snippet="s_features_wave" style="position: relative;" data-name="Zakladatelský program" data-invisible="1">
+        <div class="container">
+            
+            
+            
+            <div class="row">
+                
+                
+                
+                
+                
+                
+            <div class="offset-1 col-10 o_colored_level col-lg-4 offset-lg-0">
+                    <i class="fa fa-heartbeat d-block mx-auto rounded fa-5x border" style="background-color: rgba(0, 0, 0, 0); color: rgb(165, 190, 0); --box-border-left-width: 0px; --box-border-bottom-width: 0px; --box-border-right-width: 0px; --box-border-top-width: 0px;" role="presentation"/>
+                    <br/>
+                    <h4 style="text-align: center;">5 let péče bez starostí</h4>
+                    <p style="text-align: center;"><span style="font-size: 18px;">Zapomeňte na údržbu. Prvních 5 let se o váš dům staráme my. Jednou ročně přijede servisní tým TULIO na "wellness prohlídku" – seřídíme okna, zkontrolujeme rekuperaci, vyměníme filtry, ošetříme fasádu a prověříme dům termokamerou. Vy jen bydlíte, my garantujeme kondici domu.</span></p>
+                </div><div class="offset-1 col-10 o_colored_level offset-lg-0 col-lg-5">
+                    <i class="fa fa-flash d-block mx-auto rounded fa-5x border" style="background-color: rgba(0, 0, 0, 0); color: rgb(165, 190, 0); border-left-color: var(--o-color-5) !important; border-bottom-color: var(--o-color-5) !important; border-right-color: var(--o-color-5) !important; border-top-color: var(--o-color-5) !important; --box-border-left-width: 0px; --box-border-bottom-width: 0px; --box-border-right-width: 0px; --box-border-top-width: 0px;" role="presentation"/>
+                    <br/>
+                    <h4 style="text-align: center;">5 let účty za topení platíme my</h4>
+                    <p style="text-align: center;"><span style="font-size: 18px;">Našim výpočtům věříme tak, že za ně ručíme peněženkou. Prvních 5 let hradíme náklady na vytápění my.</span></p><p style="text-align: center;"><span style="font-size: 18px;">A máme pro vás výzvu: Pokud se o dům budete starat vzorně a roční spotřeba klesne pod 5 000 Kč za vytápění (což je v našich domech možné), budeme vám topení platit i za každý takový rok. Vy nám dáte důvěru, my vám teplo domova zdarma.</span></p>
+                </div><div class="offset-1 col-10 o_colored_level offset-lg-0 col-lg-3 pt48">
+                    <i class="fa fa-edit d-block mx-auto border fa-5x" style="background-color: rgba(0, 0, 0, 0); color: rgb(165, 190, 0); border-left-color: var(--o-color-5) !important; border-bottom-color: var(--o-color-5) !important; border-right-color: var(--o-color-5) !important; border-top-color: var(--o-color-5) !important; --box-border-left-width: 0px; --box-border-bottom-width: 0px; --box-border-right-width: 0px; --box-border-top-width: 0px;" role="presentation"/>
+                    <br/>
+                    <h4 style="text-align: center;">Terasa za 50 000 Kč jako dárek</h4>
+                    <p style="text-align: center;"><span style="font-size: 18px;">Chceme, abyste po nastěhování šlapali čistou cestou. Jako poděkování za status Zakladatele vám k domu rovnou přistavíme dřevěnou terasu na naše náklady. Váš domov tak bude od prvního dne plynule propojen se zahradou.</span></p>
+                </div></div>
+        </div>
+    </section><section class="s_text_image pt80 o_colored_level pb48 d-lg-block d-none o_snippet_mobile_invisible" data-snippet="s_text_image" data-name="Text - Obrázek" data-invisible="1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="pt16 pb16 o_colored_level col-lg-5">
+                    <h2 style="text-align: left;" class="h3-fs"><span class="h1-fs">Co za to chceme?</span></h2><h4><br/></h4><h4><strong>1. Hledáme váš příběh, ne anonymitu</strong></h4><p><span style="font-size: 18px;">Nehledáme jen někoho, kdo si koupí dům a zavře dveře. Chceme partnery, kteří nám dovolí zaznamenat zrod jejich domova. Požadujeme možnost profesionálně zdokumentovat celý proces – od výroby až po zabydlení. To znamená souhlas s nafocením interiéru i exteriéru a natočením krátkého videa o vašich zkušenostech po několika měsících bydlení. Váš dům se stane naší referenční chloubou a důkazem, že pasivní bydlení v TULIO funguje i v praxi, nejen na papíře.</span></p><h4><strong>2. Upřímnou zpětnou vazbu (i tu kritickou)</strong></h4><p><span style="font-size: 18px;">Protože jsme na začátku, potřebujeme vědět, co funguje skvěle a co můžeme zlepšit. Jako Zakladatelé budete mít přímou linku na Petra a Miroslava, ale na oplátku očekáváme vaši otevřenost. Ať už půjde o detaily ve výrobě, komunikaci nebo každodenní život v domě, vaše postřehy nám pomohou ladit procesy pro budoucí zákazníky. Výměnou za nadstandardní péči a garance chceme slyšet vaši pravdu, abychom mohli být nejlepší na trhu.</span></p><h4><strong>3. Odpovědný přístup k inovacím</strong></h4><p><span style="font-size: 18px;">Nabízíme vám unikátní benefity, například proplácení energií, které vyžadují vzájemnou důvěru. Očekáváme od vás zodpovědný přístup k užívání domu a jeho technologií. Nejde o omezování vašeho komfortu, ale o férovou spolupráci, kde my ručíme peněženkou za kvalitu našeho pasivního standardu a vy dům užíváte tak, jak byl navržen. Pokud společně prokážeme, že dům funguje efektivně, odměníme vaši loajalitu.</span></p>
+                </div>
+                <div class="col-lg-6 offset-lg-1 pt16 pb16 o_colored_level">
+                    <img src="/html_editor/shape/illustration/maker-launchsvg-3730?c1=%23A5BE00&amp;unique=ab760200" alt="" data-attachment-id="3730" class="img img-fluid mx-auto rounded o_we_custom_image" loading="lazy"/>
+                </div>
+            </div>
+        </div>
+    </section><section class="s_features_wave o_cc o_cc5 pt32 pb40 s_custom_snippet d-lg-block o_snippet_mobile_invisible o_colored_level d-none" data-snippet="s_features_wave" style="position: relative;" data-name="Zakladatelský program" data-invisible="1">
+        <div class="container">
+            
+            
+            
+            <div class="row">
+                
+                
+                
+                
+                
+                
+            <div class="o_colored_level col-lg-12"><div data-vxml="001" data-list-id="2" data-name="Newsletter" data-snippet="s_newsletter_subscribe_form" class="s_newsletter_subscribe_form s_newsletter_list js_subscribe">
+        <div class="js_subscribed_wrap d-none">
+            <p class="h4-fs text-center text-success"><i role="img" class="fa fa-check-circle-o"/>&amp;nbsp;Těšíme se na spolupráci!</p>
+        </div>
+        <div class="js_subscribe_wrap">
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Emailová adresa" class="s_newsletter_subscribe_form_input js_subscribe_value form-control" style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiByeD0iNCIgZmlsbD0iI0I0QjRCNCIvPgo8cGF0aCBkPSJNOC4wMDAwMyAyLjVDNy4zODUyOCAyLjUgNi44MTIwOSAyLjY3MjY1IDYuMzI0MTQgMi45NzIyM0M2LjA4ODgxIDMuMTE2NzIgNS43ODA5MiAzLjA0MzA3IDUuNjM2NDMgMi44MDc3NEM1LjQ5MTk1IDIuNTcyNDIgNS41NjU1OSAyLjI2NDUyIDUuODAwOTIgMi4xMjAwNEM2LjQ0MTU5IDEuNzI2NjkgNy4xOTUxNSAxLjUgOC4wMDAwMyAxLjVDOS40ODE5NiAxLjUgMTAuNzg0MyAyLjI2NzA4IDExLjUzNjMgMy40MjM2OEwxMS41NDA4IDMuNDMwMThDMTEuNTQ3MyAzLjQzOTY3IDExLjU1NTggMy40NTI0IDExLjU2NjIgMy40NjgyN0MxMS41ODY4IDMuNDk5OTggMTEuNjE0NSAzLjU0NDM0IDExLjY0NyAzLjYwMDQ2QzExLjcxMTggMy43MTI1NCAxMS43OTYgMy44NzI2MSAxMS44Nzk3IDQuMDczN0MxMi4wNDY4IDQuNDc0NjggMTIuMjE2IDUuMDQ3ODkgMTIuMjIgNS43MzMyOEwxMi4yMiA1LjczNjIxQzEyLjIyIDcuOTQxNzggMTAuNTM5OCA5Ljc1NjYzIDguMzkwNjIgOS45NTQ1M1YxMi40NDZDOC45ODMzMiAxMi4zODI2IDkuNTA0NzggMTIuMjY0MiA5LjgyMTQyIDEyLjExMDNDMTAuMDY5OCAxMS45ODk2IDEwLjM2OSAxMi4wOTMgMTAuNDg5NyAxMi4zNDE0QzEwLjYxMDQgMTIuNTg5NyAxMC41MDcgMTIuODg4OSAxMC4yNTg2IDEzLjAwOTdDOS43NzM1NSAxMy4yNDU1IDkuMDc4ODkgMTMuMzg1MiA4LjM5MDYyIDEzLjQ1MTFWMTRDOC4zOTA2MiAxNC4yNzYxIDguMTY2NzYgMTQuNSA3Ljg5MDYyIDE0LjVDNy42MTQ0OCAxNC41IDcuMzkwNjIgMTQuMjc2MSA3LjM5MDYyIDE0VjkuNDcyNDNDNy4zOTA2MiA5LjE5NjI4IDcuNjE0NDggOC45NzI0MyA3Ljg5MDYyIDguOTcyNDNIOC4wMDAwM0M5Ljc3NTg1IDguOTcyNDMgMTEuMjE5MiA3LjUyNjM3IDExLjIyIDUuNzM3NjlDMTEuMjE2NyA1LjIxMzY0IDExLjA4NjkgNC43NzA5MSAxMC45NTY2IDQuNDU4MjNDMTAuODkxNyA0LjMwMjM0IDEwLjgyNzYgNC4xODEwNiAxMC43ODEzIDQuMTAxMDVDMTAuNzU4MiA0LjA2MTEyIDEwLjczOTcgNC4wMzE3MyAxMC43MjggNC4wMTM3MkMxMC43MjIyIDQuMDA0NzMgMTAuNzE4IDMuOTk4NiAxMC43MTU4IDMuOTk1NDRMMTAuNzE0NSAzLjk5MzQzTDEwLjcxNDIgMy45OTMwOEMxMC43MSAzLjk4NzEgMTAuNzA1OCAzLjk4MTAyIDEwLjcwMTkgMy45NzQ4NkMxMC4xMjY1IDMuMDg1NDcgOS4xMzA3NSAyLjUgOC4wMDAwMyAyLjVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNS4wNzMzMiAzLjM3NjEzQzUuMzA5ODMgMy41MTg2NiA1LjM4NjAzIDMuODI1OTQgNS4yNDM1IDQuMDYyNDZDNC45NDk0OCA0LjU1MDM2IDQuNzgwMDMgNS4xMjI1OCA0Ljc4MDAzIDUuNzM2MjFWOS42Mzg1NkM0Ljc4MDAzIDkuOTE0NyA0LjU1NjE3IDEwLjEzODYgNC4yODAwMyAxMC4xMzg2QzQuMDAzODkgMTAuMTM4NiAzLjc4MDAzIDkuOTE0NyAzLjc4MDAzIDkuNjM4NTZWNS43MzYyMUMzLjc4MDAzIDQuOTM1ODUgNC4wMDE2MiA0LjE4NTgxIDQuMzg2OTkgMy41NDYzMUM0LjUyOTUyIDMuMzA5OCA0LjgzNjggMy4yMzM2IDUuMDczMzIgMy4zNzYxM1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik04LjAwMDA0IDQuMjUzOTdDNy4xODY0MiA0LjI1Mzk3IDYuNTI2ODYgNC45MTM1NCA2LjUyNjg2IDUuNzI3MTZWMTIuMDJDNi41MjY4NiAxMi4yOTYyIDYuMzAzIDEyLjUyIDYuMDI2ODYgMTIuNTJDNS43NTA3MSAxMi41MiA1LjUyNjg2IDEyLjI5NjIgNS41MjY4NiAxMi4wMlY1LjcyNzE2QzUuNTI2ODYgNC4zNjEyNSA2LjYzNDE0IDMuMjUzOTcgOC4wMDAwNCAzLjI1Mzk3QzkuMzY1OTUgMy4yNTM5NyAxMC40NzMyIDQuMzYxMjUgMTAuNDczMiA1LjcyNzE2QzEwLjQ3MzIgNy4wOTMwNiA5LjM2NTk1IDguMjAwMzUgOC4wMDAwNCA4LjIwMDM1QzcuNzIzOSA4LjIwMDM1IDcuNTAwMDQgNy45NzY0OSA3LjUwMDA0IDcuNzAwMzVDNy41MDAwNCA3LjQyNDIgNy43MjM5IDcuMjAwMzUgOC4wMDAwNCA3LjIwMDM1QzguODEzNjYgNy4yMDAzNSA5LjQ3MzIzIDYuNTQwNzggOS40NzMyMyA1LjcyNzE2QzkuNDczMjMgNC45MTM1NCA4LjgxMzY2IDQuMjUzOTcgOC4wMDAwNCA0LjI1Mzk3WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==&quot;) !important; background-position: right 12px center !important; background-repeat: no-repeat !important; background-size: auto !important;"/>
+                <a role="button" href="#" class="js_subscribe_btn o_submit btn btn-primary"><p>Stát se zakladatelem</p></a>
+            </div>
+        </div>
+    </div></div></div>
+        </div>
+    </section><div class="s_hr pt32 pb32 o_colored_level" data-snippet="s_hr" data-name="Oddělovač">
+        <hr class="w-100 mx-auto"/>
+    </div><section class="s_motto o_cc o_cc1 o_colored_level pt24 pb24" data-snippet="s_motto" data-name="Motto" style="position: relative;">
+        
+        <div class="container">
+            <div class="row">
+                <div class="o_colored_level col-lg-12">
+                    <h1 class="display-4" style="text-align: center;"><strong>Technologie našich domů</strong><br/></h1>
+                </div>
+            </div>
+        </div>
+    </section><section class="s_three_columns o_cc pt32 pb32 o_colored_level o_cc2" data-vxml="001" data-vcss="001" data-snippet="s_three_columns" data-name="Sloupce" style="background-color: rgb(255, 255, 255);">
+        <div class="container">
+            <div class="row d-flex align-items-stretch">
+                <div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_colored_level o_card_img_top shadow rounded" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/4013-d1d8bbba/replicate-prediction-7ydc7vc2n5rmr0cv99yvyv9bvg.webp" alt="air recovery, recuperration Zehnder ComfoAir Q450" data-attachment-id="4010" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="4010" data-original-src="/web/image/4010-43e0abc6/replicate-prediction-7ydc7vc2n5rmr0cv99yvyv9bvg.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">Rekuperace&amp;nbsp;Zehnder ComfoAir Q:<br/>Tiché plíce domova</h2>
+                            <p>V kompaktním prostoru je ticho ten pravý luxus. Proto jsme zvolili technologickou špičku ze Švýcarska, která je díky speciálním ventilátorům nejtišší na trhu.</p><p>Jednotka s unikátním výměníkem ve tvaru diamantu vrací zpět až 90 % tepla a automaticky řídí hladinu CO₂ a vlhkost. Vy spíte v čerstvém vzduchu bez pylů a prachu, aniž byste v zimě museli otevírat okna a pouštět teplo ven.</p></div></div>
+                </div><div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_card_img_top shadow rounded o_colored_level" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/4012-3896dcc2/replicate-prediction-arejhhyrdxrmy0cv99ysqaagwr.webp" alt="RBW water heating heat pumps" data-attachment-id="4011" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="4011" data-original-src="/web/image/4011-a8bf5bb3/replicate-prediction-arejhhyrdxrmy0cv99ysqaagwr.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">Inteligentní bojler REMKO:<br/>Ohřev vody ze vzduchu</h2>
+                            <p>Tento bojler funguje jako "obrácená lednice" – bere si energii z venkovního vzduchu&amp;nbsp;a s minimálními náklady jím ohřívá vodu (až 70 % energie je zdarma z okolí). Specifickou výhodou pro domy TULIO je jeho vedlejší efekt: při ohřevu vody zároveň jemně klimatizuje a odvlhčuje prostor, takže se vám technická místnost nebo spíž v létě nikdy nepřehřeje.</p>
+                        </div>
+                    </div>
+                </div><div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_card_img_top shadow rounded o_colored_level" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/4056-c958252d/replicate-prediction-9ehg9hbwe1rmr0cv9ewvr54dqm.webp" alt="" data-attachment-id="4055" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="4055" data-original-src="/web/image/4055-6d434b6e/replicate-prediction-9ehg9hbwe1rmr0cv9ewvr54dqm.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy" style="padding: 20px;"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">Slavona Progression:<br/>Okna bez rámu</h2>
+                            <p>Pro pasivní dům jsou okna klíčová. Zvolili jsme českou rodinnou firmu Slavona a jejich špičkovou řadu Progression. Díky unikátní konstrukci je rám okna zvenku skrytý pod fasádou, takže dům vypadá čistě a moderně.</p><p>Tato okna nejenže nepustí zimu dovnitř, ale díky solárním ziskům v zimě doslova "přitápí" sluncem. Jsou certifikovaná pro pasivní domy a zvenku zcela bezúdržbová – už žádné natírání.</p>
+                        </div>
+                    </div>
+                </div><div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_colored_level o_card_img_top rounded shadow" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/3811-ee606305/replicate-prediction-2kaz3qrafdrmt0cv823b518z38.webp" alt="Novatop CLT dřevěný panel" data-attachment-id="3809" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="3809" data-original-src="/web/image/3809-6e05382f/replicate-prediction-2kaz3qrafdrmt0cv823b518z38.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">CLT Dřevěný Panel</h2>
+                            <p>Nekupujete vzduch mezi trámky, ale masivní stěnu. Na rozdíl od levných rámových dřevostaveb tvoří CLT panel pevnou, celodřevěnou konstrukci s násobně vyšší statickou a požární odolností REI. Funguje jako tepelná baterie – v zimě drží teplo, v létě chlad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_colored_level o_card_img_top rounded shadow" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/3804-84c8a0d3/replicate-prediction-pwej3qpq29rmr0cv81vae118ng.webp" alt="Fermacell sádrovláknitá deska" data-attachment-id="3798" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="3798" data-original-src="/web/image/3798-e1662d7e/replicate-prediction-pwej3qpq29rmr0cv81vae118ng.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">Fermacell</h2>
+                            <p class="card-text">Zapomeňte na křehký sádrokarton, který prokopnete nohou. Fermacell jeextrémně tvrdá, sádrovláknitá deska. Unese kuchyňskou linku na pár vrutech, výrazně tlumí hluk mezi místnostmi a je nehořlavý. Zeď, do které můžete bouchnout.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_colored_level o_card_img_top shadow rounded" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/3806-3c2bf6d9/replicate-prediction-365p9mr1jhrmw0cv81vts6k9mw.webp" alt="VIP vakuová izolace" data-attachment-id="3799" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="3799" data-original-src="/web/image/3799-d50b5157/replicate-prediction-365p9mr1jhrmw0cv81vts6k9mw.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">VIP Vakuová Izolace</h2>
+                            <p class="card-text">Technologie z kosmického průmyslu u vás doma. Tento panel izoluje 8× lépe než běžný polystyren. Díky tomu mohou být naše stěny štíhlé, čímž vám v domě ušetříme cenné metry čtvereční prostoru, aniž bychom slevili z tepelného komfortu.</p>
+                        </div>
+                    </div>
+                </div><div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_colored_level o_card_img_top shadow rounded" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/3808-c22955b2/replicate-prediction-3he0f92cm9rmr0cv81vt1wdr4c.webp" alt="Dřevovláknitá izolace Pavatex" data-attachment-id="3800" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="3800" data-original-src="/web/image/3800-7fdc5ec2/replicate-prediction-3he0f92cm9rmr0cv81vt1wdr4c.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">Dřevovláknitá Izolace</h2>
+                            <p class="card-text" style="text-align: left;">Polystyren dům udusí, dřevovlákno ho nechá dýchat. V zimě hřeje lépe než&amp;nbsp;vata, ale v létě exceluje díky tzv. fázovému posunu – brzdí průchod horka stěnou tak dlouho, že se dům nepřehřeje ani v tropických dnech.<br/><br/></p>
+                        </div>
+                    </div>
+                </div><div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_colored_level rounded shadow o_card_img_top" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/3812-a01a6d69/replicate-prediction-n2sv0dbfhnrmt0cv823rx57qpr.webp" alt="Provětraná mezera" data-attachment-id="3810" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="3810" data-original-src="/web/image/3810-033fd57c/replicate-prediction-n2sv0dbfhnrmt0cv823rx57qpr.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">Provětrávaná Mezera</h2>
+                            <p class="card-text">Neviditelné plíce vašeho domu. Vzduchová mezera za fasádou funguje jako komín, který neustále odvádí případnou vlhkost pryč z konstrukce. Díky tomu dům nehnije, netvoří se plísně a životnost stavby se počítá na generace, ne na roky.</p>
+                        </div>
+                    </div>
+                </div><div data-name="Card" class="col-lg-4 pt16 pb16">
+                    <div class="s_card card h-100 o_cc o_cc1 my-0 o_colored_level o_card_img_top rounded shadow" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 25px; --box-border-bottom-right-radius: 25px; --box-border-top-right-radius: 25px; --box-border-top-left-radius: 25px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 0px !important;">
+                        <figure class="o_card_img_wrapper mb-0 ratio ratio-16x9">
+                            <img src="/web/image/3807-cc7c4abe/replicate-prediction-z1sazakrpdrmy0cv81xvcwsptm.webp" alt="Novatop Fasáda" data-attachment-id="3801" class="o_card_img img img-fluid o_we_custom_image card-img-top o_editable_media" data-format-mimetype="image/webp" data-original-id="3801" data-original-src="/web/image/3801-bbd7d260/replicate-prediction-z1sazakrpdrmy0cv81xvcwsptm.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title h5-fs">NOVATOP Fasáda</h2>
+                            <p class="card-text">Žádná levná omítka, která po pěti letech popraská. Používáme výběrové smrkové dřevo, které přirozeně odolává povětrnostním vlivům. Fasáda je bezúdržbová – postupně získá krásnou stříbrnou patinu a chrání dům desítky let.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><div class="s_hr pt32 pb32 o_colored_level" data-snippet="s_hr" data-name="Oddělovač">
+        <hr class="w-100 mx-auto"/>
+    </div><section class="s_company_team_grid o_colored_level o_cc pt16 pb0 o_cc1" data-snippet="s_company_team_grid" data-name="Firemní týmová mřížka">
+        <div class="container">
+            <div class="row o_grid_mode" data-row-count="23">
+                <div class="o_grid_item g-col-lg-6 g-height-2 col-lg-6 order-lg-0" style="grid-area: 1 / 4 / 3 / 10; z-index: 1; order: 0;">
+                    <h2 style="text-align: center;"><span class="h1-fs">Naše rodina</span></h2>
+                </div>
+                <div data-name="Team Member" class="o_grid_item g-col-lg-4 order-lg-0 col-lg-4 g-height-19" style="grid-area: 3 / 1 / 22 / 5; --grid-item-padding-y: 16px; --grid-item-padding-x: 16px; z-index: 2; order: 1;">
+                    <div class="s_card o_card_img_top card o_cc o_cc2 o_colored_level" data-vxml="001" data-snippet="s_card" data-name="Card" style="border-width: 0px !important;">
+                        <figure class="o_card_img_wrapper ratio ratio-1x1 mb-0">
+                            <img src="/web/image/4061-b24e5904/replicate-prediction-xb1svgr4yxrmw0cv80ybbbxxt8%20%281%29.webp" alt="Miroslav Štichauer" data-attachment-id="3788" class="o_card_img card-img-top rounded pb-0 img img-fluid o_we_custom_image o_editable_media" style="padding: 16px;" data-format-mimetype="image/webp" data-original-id="3788" data-original-src="/web/image/3788-68feada3/replicate-prediction-xb1svgr4yxrmw0cv80ybbbxxt8%20%281%29.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy" data-quality="91"/>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title h5-fs" style="text-align: center;">Miroslav Štichauer</h3>
+                            <p class="card-text" style="text-align: center;"><em>Hlavní konstruktér &amp;amp; Garant kvality</em></p><p>Miroslav není jen stavař, je to <strong>průkopník</strong>. Jako jeden z prvních v České republice se odvážil stavět pasivní domy v době, kdy ostatní ještě zateplovali 15 cm polystyrenu.</p><p>Je uznávanou špičkou v oblasti <strong>vzduchotěsnosti</strong> a kontroly kvality dřevostaveb (BlowerDoor testy). Většinu svého profesního života zasvětil tomu, aby dřevostavby nebyly "papírové boudy", nad kterými se ohrnuje nos.</p><p>Konstrukce TULIO je jeho mistrovské dílo – výsledek dekád testování, měření a posedlosti detailem. Pokud existuje tepelný most, Miroslav ho najde a vyřeší.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-name="Team Member" class="o_grid_item g-col-lg-4 order-lg-0 g-height-19 col-lg-4" style="grid-area: 3 / 9 / 22 / 13; --grid-item-padding-y: 16px; --grid-item-padding-x: 16px; z-index: 4; order: 3;">
+                    <div class="s_card o_card_img_top card o_cc o_cc2 o_colored_level" data-vxml="001" data-snippet="s_card" data-name="card" style="border-width: 0px !important;">
+                        <figure class="o_card_img_wrapper ratio ratio-1x1 mb-0">
+                            <img src="/web/image/3790-bfe11362/replicate-prediction-3d268pjth5rmw0cv80q9v12250.webp" alt="Zdeňka Štichauerová" data-attachment-id="3789" class="o_card_img card-img-top rounded pb-0 img img-fluid o_we_custom_image o_editable_media" style="padding: 16px;" data-format-mimetype="image/webp" data-original-id="3789" data-original-src="/web/image/3789-c4fc32a7/replicate-prediction-3d268pjth5rmw0cv80q9v12250.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy"/>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title h5-fs" style="text-align: center;">Zdeňka Štichauerová</h3>
+                            <p class="card-text" style="text-align: center;">Garant lidskosti</p><p class="card-text" style="text-align: center;">Zatímco pánové řeší tepelné mosty a neuronové sítě, Zdeňka řeší realitu. Je to naše "dobrá duše" a univerzální hybatel, který je všude tam, kde je zrovna potřeba.</p><p class="card-text" style="text-align: center;">Ať už jde o administrativu, logistiku nebo pomocnou ruku přímo v procesu, Zdeňka zajišťuje, že firma funguje jako rodina nejen na papíře, ale i v praxi.</p></div></div>
+                </div>
+                
+                
+                
+            <div data-name="Team Member" class="o_grid_item g-col-lg-4 g-height-19 col-lg-4 order-lg-0" style="--grid-item-padding-y: 16px; --grid-item-padding-x: 16px; z-index: 3; grid-area: 3 / 5 / 22 / 9; order: 2;">
+                    <div class="s_card o_card_img_top card o_cc o_cc2 o_colored_level" data-vxml="001" data-snippet="s_card" data-name="Card" style="border-width: 0px !important;">
+                        <figure class="o_card_img_wrapper ratio ratio-1x1 mb-0">
+                            <img src="/web/image/4060-a8515d24/replicate-prediction-h7t8kkqh6hrmy0cv81esrcjz8m.webp" alt="Petr Štichauer" data-attachment-id="3792" class="o_card_img card-img-top rounded pb-0 img img-fluid o_we_custom_image o_editable_media" style="padding: 16px;" data-format-mimetype="image/webp" data-original-id="3792" data-original-src="/web/image/3792-437a74cb/replicate-prediction-h7t8kkqh6hrmy0cv81esrcjz8m.png" data-mimetype-before-conversion="image/png" data-resize-width="690" data-mimetype="image/webp" loading="lazy" data-aspect-ratio="1/1" data-y="37.237483638743434" data-width="1547" data-height="1547" data-scale-x="1" data-scale-y="1"/>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="card-title h5-fs" style="text-align: center;">Petr Štichauer</h3>
+                            <p class="card-text" style="text-align: center;"><em>Vize, Strategie &amp;amp; AI inovace</em></p><p class="card-text" style="text-align: center;">Petr vnáší do tradičního řemesla digitální revoluci. Díky backgroundu v IT a vášni pro umělou inteligenci nevidí TULIO jen jako dům, ale jako chytrý produkt.&amp;nbsp;</p><p class="card-text" style="text-align: center;">Řídí strategii firmy, digitalizaci procesů a stará se o to, aby cesta zákazníka – od prvního kliknutí v konfigurátoru až po předání klíčů – byla stejně plynulá jako v Silicon Valley. Hledá cesty, jak pomocí AI a moderních technologií udělat špičkové bydlení dostupnějším.</p><p class="card-text" style="text-align: center;"><br/></p>
+                        </div>
+                    </div>
+                </div><div class="o_grid_item g-height-2 g-col-lg-6 col-lg-6 order-lg-0" style="z-index: 5; grid-area: 22 / 4 / 24 / 10; order: 4;"><p style="text-align: center;"><a class="btn btn-primary" href="/nas-pribeh">Dozvědět se více o našem příběhu</a></p></div></div>
+        </div>
+    </section><div class="s_hr pt32 pb32 o_colored_level" data-snippet="s_hr" data-name="Oddělovač">
+        <hr class="w-100 mx-auto" style="border-top-color: var(--o-color-1); border-top-width: 6px !important;"/>
+    </div><section class="s_newsletter_centered s_newsletter_list o_colored_level pt0 pb24" data-name="Newsletter Centered" data-snippet="s_newsletter_centered" data-list-id="1" style="position: relative;">
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pt16 pb16 col-lg-8 offset-lg-2" data-name="Card">
+                        <div class="s_card card o_cc my-0 o_colored_level shadow rounded o_cc1" data-vxml="001" data-snippet="s_card" data-name="Card" style="--box-border-bottom-left-radius: 50px; --box-border-bottom-right-radius: 50px; --box-border-top-right-radius: 50px; --box-border-top-left-radius: 50px; box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 10px 3px !important;">
+                            <div class="card-body p-md-5">
+                                <p class="h1-fs" style="text-align: center;">✉️</p>
+                                <h3 class="card-title" style="text-align: center;">Zajímá vás svět modulárních staveb?</h3>
+                                <p style="text-align: center;"><br/>Zatím se jen rozhlížíte? Připojte se k našim odběratelům. Každý měsíc sdílíme:</p><ul><li style="text-align: center;" class="oe-nested">🎥 Záběry z výroby a testování</li><li style="text-align: center;" class="oe-nested">📚 Edukativní články o legislativě,&amp;nbsp;dotacích a pastech v našem oboru</li><li style="text-align: center;" class="oe-nested">💡 Novinky ve světě TULIO a pozvánky na dny otevřených dveří a další akce</li></ul>
+                                <p style="text-align: center;"><span class="o_small-fs"><em>*z newsletteru se můžete vždy jednoduše odhlásit a u nás to není jen planý slib 😊</em></span></p>
+    <div data-vxml="001" data-list-id="0" data-name="Newsletter Form" data-snippet="s_newsletter_subscribe_form" class="s_newsletter_subscribe_form s_newsletter_list js_subscribe">
+        <div class="js_subscribed_wrap d-none">
+            <p class="h4-fs text-center text-success"><i class="fa fa-check-circle-o" role="img"/> Děkujeme za registraci!</p>
+        </div>
+        <div class="js_subscribe_wrap">
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Emailová adresa" class="s_newsletter_subscribe_form_input js_subscribe_value form-control "/>
+                <a role="button" href="#" class="js_subscribe_btn o_submit btn btn-primary o_visible" style="animation-name: dummy;">Dostávat tipy</a>
+            </div>
+        </div>
+    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section></div>
+    </t>
+</t>

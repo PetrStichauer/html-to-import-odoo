@@ -1,0 +1,1028 @@
+<t name="TULIO Relax — Investice do klidu" t-name="website.tulio-relax-investice-do-klidu">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <!-- ================================================================
+                 1. HERO — s_banner | tmavé forestní pozadí | centrovaný text
+                 ================================================================ -->
+            <section class="s_banner o_colored_level pt80 pb80"
+                     data-snippet="s_banner"
+                     data-name="Hero — Pátek 17:00"
+                     style="background: linear-gradient(rgba(45,74,62,0.6), rgba(45,74,62,0.82)); min-height: 85vh; display: flex; align-items: center; color: white;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center o_colored_level">
+                            <p class="mb-3">
+                                <span style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.15); color: white; padding: 0.5rem 1.2rem; border-radius: 30px; font-size: 0.9rem; font-weight: 600; border: 1px solid rgba(255,255,255,0.2);">
+                                    ● TULIO Relax — Vaše útočiště
+                                </span>
+                            </p>
+                            <h1 style="color: white; line-height: 1.1;">
+                                Pátek 17:00.<br/>
+                                <span style="color: #c8d96d; font-size: 0.7em; display: block; margin-top: 0.5rem;">Za hodinu jste v lese.</span>
+                            </h1>
+                            <p class="lead mt-3 mb-3" style="color: rgba(255,255,255,0.9); max-width: 600px; margin-left: auto; margin-right: auto;">
+                                TULIO Relax: Vaše soukromé útočiště. Kde telefon zůstává v autě a čas zpomalí.
+                            </p>
+                            <p class="mb-4" style="font-style: italic; color: rgba(255,255,255,0.85); padding: 1.5rem; border-left: 3px solid #A5BE00; border-right: 3px solid #A5BE00; background: rgba(0,0,0,0.2); border-radius: 0 10px 0 10px; max-width: 680px; margin-left: auto; margin-right: auto;">
+                                Ne další víkend na Netflixu. Ne další pondělí s pocitem, že jste neodpočali.<br/>
+                                Tohle je prostor, kde se vrátíte k sobě.
+                            </p>
+                            <a class="btn btn-primary btn-lg me-2 mb-2" href="#produkty">Vidět možnosti chaty</a>
+                            <a class="btn btn-secondary btn-lg mb-2" href="#kontakt">Spočítat cenu konfigurace</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 2. POROVNÁNÍ — s_comparisons | linen bg (o_cc2)
+                 ================================================================ -->
+            <section class="s_comparisons o_cc o_cc2 o_colored_level pt64 pb64"
+                     data-snippet="s_comparisons"
+                     data-name="Porovnání — TULIO vs. Tinyhouse"
+                     id="porovnani">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center o_colored_level">
+                            <span style="display: inline-block; background: #F3E9DC; color: #E67E22; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Kritická diferenciace</span>
+                            <h2 class="mt-3">TULIO Relax vs. Levný <em style="font-style: normal; color: #A5BE00;">Tinyhouse</em></h2>
+                            <p class="lead">Okamžitě vyřešíme hlavní námitku: "Proč za 1,5 mil., když tinyhouse stojí 600k?"</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 o_colored_level">
+                            <div style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 30px rgba(0,0,0,0.08);">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered mb-0" style="min-width: 700px;">
+                                        <thead>
+                                            <tr>
+                                                <th style="background: #ECF0F1; color: #5a6a7a; width: 30%; padding: 1.5rem;">Co záleží</th>
+                                                <th style="background: #fff5f5; color: #e74c3c; padding: 1.5rem;">Levný Tinyhouse (600–900k)</th>
+                                                <th style="background: #f0f8e0; color: #A5BE00; padding: 1.5rem;">TULIO Relax (1,5–2,2 mil.)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Konstrukce</td>
+                                                <td style="padding: 1.2rem 1.5rem;">Lehký rám (OSB desky)</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> Masivní CLT panel (50+ let)</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Izolace</td>
+                                                <td style="padding: 1.2rem 1.5rem;">10–15 cm minerální vata</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> CLT + dřevovlákno + provětrávaná fasáda</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Vytápění v zimě</td>
+                                                <td style="padding: 1.2rem 1.5rem;">🔥 3–5k Kč/měsíc (netěsnost)</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> <strong>500–800 Kč/měsíc</strong> (téměř pasivní)</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Vlhkost/Plísně</td>
+                                                <td style="padding: 1.2rem 1.5rem;">⚠️ Časté (kondenzace)</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> Žádné (CLT dýchá + rekuperace)</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Záruky</td>
+                                                <td style="padding: 1.2rem 1.5rem;">2 roky (pak jste sami)</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> 10 let konstrukce + 5 let servis</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Legislativa</td>
+                                                <td style="padding: 1.2rem 1.5rem;">❓ "Mobilní" (šedá zóna)</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> Rekreační stavba (legální)</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Prodej za 10 let</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-times" style="color: #e74c3c;"/> Ztráta hodnoty −50%</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> Růst hodnoty +20–30%</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 600; padding: 1.2rem 1.5rem;">Pocit</td>
+                                                <td style="padding: 1.2rem 1.5rem;">Provizorní "boudu"</td>
+                                                <td style="padding: 1.2rem 1.5rem;"><span class="fa fa-check" style="color: #A5BE00;"/> Prémiový útočiště</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-12 o_colored_level">
+                            <div style="background: #2C3E50; color: white; padding: 2rem; border-radius: 15px;">
+                                <h4 style="color: #E67E22; margin-bottom: 1rem;">Proč tinyhouse je levný?</h4>
+                                <p style="color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 1rem;">Protože šetří na věcech, které za 3 roky začnou padat: izolace zmokne → zatéká → plísně → renovace. Vy jste zaplatili 600k + 400k oprav = 1 mil. za "boudu".</p>
+                                <p style="color: rgba(255,255,255,0.85); line-height: 1.7;"><strong style="color: #c8d96d;">TULIO Relax:</strong> Zaplatíte 1,5 mil. jednou. A za 20 let ho dědíte dětem.</p>
+                                <a class="btn btn-primary mt-3" href="#produkty">Chci kvalitu, ne kompromis</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 3. PŘÍBĚHY VÍKENDŮ — s_three_columns + s_card | bílá
+                 ================================================================ -->
+            <section class="s_three_columns o_colored_level pt64 pb64"
+                     data-snippet="s_three_columns"
+                     data-name="3 Příběhy víkendů">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center o_colored_level">
+                            <span style="display: inline-block; background: #F3E9DC; color: #E67E22; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Use case storytelling</span>
+                            <h2 class="mt-3">3 příběhy víkendů</h2>
+                            <p class="lead">Ukážeme, že TULIO Relax není jen "chata", ale lifestylový nástroj.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- Story 1: Jana -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="Příběh — Jana"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px; overflow: hidden;">
+                                <div style="height: 160px; background: linear-gradient(135deg, #2d4a3e 0%, #4a6b5c 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                                    🧘‍♀️
+                                </div>
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center gap-3 mb-3">
+                                        <div style="width: 50px; height: 50px; background: #F3E9DC; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 700; flex-shrink: 0;">J</div>
+                                        <div>
+                                            <h4 class="mb-0 h6-fs">Jana (38)</h4>
+                                            <small style="color: #5a6a7a;">Marketingová manažerka, Praha</small>
+                                        </div>
+                                    </div>
+                                    <p class="fst-italic" style="color: #5a6a7a; padding: 1rem; background: #ECF0F1; border-radius: 10px; border-left: 3px solid #E67E22; margin-bottom: 1rem;">"Celý týden řeším emaily, Slack, meetingy. V pátek mám pocit, že mi hlava exploduje."</p>
+                                    <p class="fw-semibold mb-1">Páteční rituál:</p>
+                                    <ul class="mb-3" style="padding-left: 1.2rem;">
+                                        <li>17:00 — Odjezd z Prahy</li>
+                                        <li>18:30 — Příjezd na chatu (1,5h cesta)</li>
+                                        <li>19:00 — Večeře na terase, západ slunce</li>
+                                        <li>20:00 — Sauna (TULIO Relax Mini)</li>
+                                        <li>21:00 — Spánek (ticho, žádné telefony)</li>
+                                    </ul>
+                                    <div style="background: rgba(165,190,0,0.1); border-radius: 10px; border-left: 3px solid #A5BE00; padding: 1rem;">
+                                        <strong style="color: #A5BE00;">Nedělní pocit:</strong> "Vracím se do Prahy úplně jiná. Mám energii. Chata je nejlepší investice, co jsem udělala."
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Story 2: Tomáš -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="Příběh — Tomáš"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px; overflow: hidden;">
+                                <div style="height: 160px; background: linear-gradient(135deg, #2d4a3e 0%, #4a6b5c 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                                    💻
+                                </div>
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center gap-3 mb-3">
+                                        <div style="width: 50px; height: 50px; background: #F3E9DC; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 700; flex-shrink: 0;">T</div>
+                                        <div>
+                                            <h4 class="mb-0 h6-fs">Tomáš (45)</h4>
+                                            <small style="color: #5a6a7a;">Software developer, 3 děti</small>
+                                        </div>
+                                    </div>
+                                    <p class="fst-italic" style="color: #5a6a7a; padding: 1rem; background: #ECF0F1; border-radius: 10px; border-left: 3px solid #E67E22; margin-bottom: 1rem;">"Pracuju z domova, ale 'z domova' = děti křičí, žena volá, pořád někdo něco potřebuje. Nemůžu se soustředit."</p>
+                                    <p class="fw-semibold mb-1">Řešení — HomeOffice bunker:</p>
+                                    <ul class="mb-3" style="padding-left: 1.2rem;">
+                                        <li>TULIO Relax Mini na zahradě (20 m od domu)</li>
+                                        <li>Pracovní stůl + pohovka + kuchyňka</li>
+                                        <li>8:00 — "Jdu do práce" (= 20 kroků)</li>
+                                        <li>Polední pauza — Káva na terase</li>
+                                    </ul>
+                                    <div style="background: rgba(165,190,0,0.1); border-radius: 10px; border-left: 3px solid #A5BE00; padding: 1rem;">
+                                        <strong style="color: #A5BE00;">Efekt:</strong> "Separovaný workspace, ale jsem stále doma. Produktivita +50%. A když skončím, zavřu dveře a jdu k rodině."
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Story 3: Petra & Martin -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="Příběh — Petra a Martin"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px; overflow: hidden;">
+                                <div style="height: 160px; background: linear-gradient(135deg, #2d4a3e 0%, #4a6b5c 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                                    🏔️
+                                </div>
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center gap-3 mb-3">
+                                        <div style="width: 50px; height: 50px; background: #F3E9DC; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; font-weight: 700; flex-shrink: 0;">P+M</div>
+                                        <div>
+                                            <h4 class="mb-0 h6-fs">Petra &amp; Martin (50+)</h4>
+                                            <small style="color: #5a6a7a;">Majitelé pozemku v Jeseníkách</small>
+                                        </div>
+                                    </div>
+                                    <p class="fst-italic" style="color: #5a6a7a; padding: 1rem; background: #ECF0F1; border-radius: 10px; border-left: 3px solid #E67E22; margin-bottom: 1rem;">"Koupili jsme pozemek před 10 lety. Plánovali stavět chatu, ale furt jsme 'neměli čas'. Pozemek jen ležel."</p>
+                                    <p class="fw-semibold mb-1">Investice do budoucnosti:</p>
+                                    <ul class="mb-3" style="padding-left: 1.2rem;">
+                                        <li>TULIO Relax Duo (45 m²)</li>
+                                        <li>Dodávka: 2 měsíce</li>
+                                        <li>Pronájem: Airbnb (víkendový glamping)</li>
+                                        <li>3 500 Kč/noc × 40 nocí = 140k Kč/rok</li>
+                                    </ul>
+                                    <div style="background: rgba(165,190,0,0.1); border-radius: 10px; border-left: 3px solid #A5BE00; padding: 1rem;">
+                                        <strong style="color: #A5BE00;">Bonus:</strong> "Nejen že se investice vrací, ale máme důvod jet na výlety. A kdyby ne Airbnb, je to náš důchod."
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 4. LEGISLATIVA — s_three_columns | tmavé forestní pozadí
+                 ================================================================ -->
+            <section class="s_three_columns o_colored_level pt64 pb64"
+                     data-snippet="s_three_columns"
+                     data-name="Legislativa — Co je dovolené"
+                     id="legislativa"
+                     style="background: linear-gradient(135deg, #2d4a3e 0%, #2C3E50 100%); color: white;">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center">
+                            <span style="display: inline-block; background: rgba(255,255,255,0.15); color: #c8d96d; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Transparentnost</span>
+                            <h2 class="mt-3" style="color: white;">Legislativa: Co je dovolené a co ne</h2>
+                            <p class="lead" style="color: rgba(255,255,255,0.85);">Vyřešíme největší strach: "Dostanu pokutu?" Na webu vám to řekneme narovinu.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- Legální -->
+                        <div class="col-lg-6 pt16 pb16">
+                            <div style="background: rgba(255,255,255,0.08); border: 1px solid #27ae60; border-radius: 20px; padding: 2rem; height: 100%;">
+                                <h3 style="color: #27ae60; display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem; font-size: 1.3rem;">
+                                    <span class="fa fa-check-circle-o"/> CO JE LEGÁLNÍ
+                                </h3>
+                                <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Rekreační objekt — jasná legislativa</p>
+                                <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Pozemek určený k rekreaci</li>
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Objekt slouží k rekreaci (víkendy, prázdniny)</li>
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Není tam trvalé bydliště</li>
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Můžete tam jezdit každý víkend</li>
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Můžete být 2 týdny v kuse</li>
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Možnost pronájmu (Airbnb)</li>
+                                </ul>
+                                <p style="margin-top: 1rem; color: #c8d96d;"><strong>DPH: 21% | Pojištění: Rekreační objekt</strong></p>
+                            </div>
+                        </div>
+
+                        <!-- Nelegální -->
+                        <div class="col-lg-6 pt16 pb16">
+                            <div style="background: rgba(255,255,255,0.08); border: 1px solid #e74c3c; border-radius: 20px; padding: 2rem; height: 100%;">
+                                <h3 style="color: #e74c3c; display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem; font-size: 1.3rem;">
+                                    <span class="fa fa-times-circle-o"/> CO NENÍ LEGÁLNÍ
+                                </h3>
+                                <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">Trvalé bydlení v rekreačním objektu</p>
+                                <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Bydlení 365 dní/rok</li>
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Trvalá adresa na objektu</li>
+                                    <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative; color: rgba(255,255,255,0.85);"><span style="position: absolute; left: 0; color: #A5BE00;">•</span> Elektroměr ukazuje trvalou spotřebu</li>
+                                </ul>
+                                <p style="margin-top: 1rem; color: #e74c3c;"><strong>Pokuta až 400 000 Kč</strong> (nový stavební zákon 2025)</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Varování box -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div style="background: rgba(231, 76, 60, 0.15); border: 1px solid #e74c3c; border-radius: 15px; padding: 1.5rem; display: flex; align-items: flex-start; gap: 1rem;">
+                                <span style="font-size: 2rem; flex-shrink: 0;">⚠️</span>
+                                <div>
+                                    <strong style="color: #e74c3c;">TULIO přístup:</strong>
+                                    <p style="margin-top: 0.5rem; color: rgba(255,255,255,0.85); margin-bottom: 0;">
+                                        Pokud chcete <strong>trvale bydlet</strong>, nekupujte Relax. Kupte <a href="/tulio-rodinny" style="color: #c8d96d;">TULIO Rodinný</a> (12% DPH, hypotéka, kolaudace na bydlení). My vás nechceme dostat do průšvihu.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-12 text-center">
+                            <a class="btn btn-primary" href="#kontakt">Poradit mi s legislativou na mém pozemku</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 5. ZIMA — s_text_image | vizuál vlevo, text vpravo | bílá
+                 ================================================================ -->
+            <section class="s_text_image o_colored_level pt64 pb64"
+                     data-snippet="s_text_image"
+                     data-name="TULIO Relax v zimě">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center o_colored_level">
+                            <span style="display: inline-block; background: #F3E9DC; color: #E67E22; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Destrukce mýtu</span>
+                            <h2 class="mt-3">TULIO Relax <em style="font-style: normal; color: #A5BE00;">v zimě</em></h2>
+                            <p class="lead">Vyřešíme námitku: "To je jen letní chata, v zimě tam zmrznu."</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+
+                        <!-- Vizuál vlevo -->
+                        <div class="col-lg-5 pt16 pb16 o_colored_level">
+                            <div style="background: linear-gradient(145deg, #e8f0f5 0%, #d0dce5 100%); border-radius: 20px; height: 400px; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; overflow: hidden;">
+                                <span style="font-size: 8rem; opacity: 0.2; position: absolute;">❄</span>
+                                <div style="position: relative; z-index: 1;">
+                                    <div style="font-size: 5rem; margin-bottom: 1rem;">🏔️</div>
+                                    <p style="font-weight: 600; color: #2C3E50;">TULIO Relax v zimě</p>
+                                    <p style="font-size: 0.9rem; opacity: 0.7; color: #5a6a7a;">Sníh, kouř z komína, útulný interiér</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Text vpravo -->
+                        <div class="col-lg-6 offset-lg-1 pt16 pb16 o_colored_level">
+                            <h3 class="mb-3">TULIO Realita:</h3>
+                            <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+                                <li style="padding: 0.8rem 0; padding-left: 2rem; position: relative; border-bottom: 1px solid #ECF0F1;">
+                                    <span style="position: absolute; left: 0; color: #A5BE00; font-weight: bold;">✓</span>
+                                    <strong>Stěny:</strong> CLT 10 cm + dřevovlákno 16 cm + provětrávaná fasáda
+                                </li>
+                                <li style="padding: 0.8rem 0; padding-left: 2rem; position: relative; border-bottom: 1px solid #ECF0F1;">
+                                    <span style="position: absolute; left: 0; color: #A5BE00; font-weight: bold;">✓</span>
+                                    <strong>Tepelný odpor:</strong> U = 0,15 W/m²K (téměř pasivní standard)
+                                </li>
+                                <li style="padding: 0.8rem 0; padding-left: 2rem; position: relative; border-bottom: 1px solid #ECF0F1;">
+                                    <span style="position: absolute; left: 0; color: #A5BE00; font-weight: bold;">✓</span>
+                                    <strong>Okna:</strong> Trojsklo, pasivní certifikace
+                                </li>
+                                <li style="padding: 0.8rem 0; padding-left: 2rem; position: relative; border-bottom: 1px solid #ECF0F1;">
+                                    <span style="position: absolute; left: 0; color: #A5BE00; font-weight: bold;">✓</span>
+                                    <strong>Vytápění:</strong> Elektrické podlahové nebo kamna
+                                </li>
+                                <li style="padding: 0.8rem 0; padding-left: 2rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: #A5BE00; font-weight: bold;">✓</span>
+                                    <strong>Rekuperace:</strong> 90% tepla vrací zpět
+                                </li>
+                            </ul>
+
+                            <!-- Zimní statistiky 2×2 -->
+                            <div class="row g-3 mb-3">
+                                <div class="col-6">
+                                    <div style="background: #ECF0F1; padding: 1.2rem; border-radius: 12px; text-align: center;">
+                                        <div style="font-size: 1.8rem; font-weight: 800; color: #A5BE00;">500–800</div>
+                                        <div style="font-size: 0.9rem; color: #5a6a7a; margin-top: 0.3rem;">Kč/měsíc vytápění</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div style="background: #ECF0F1; padding: 1.2rem; border-radius: 12px; text-align: center;">
+                                        <div style="font-size: 1.8rem; font-weight: 800; color: #A5BE00;">+22°C</div>
+                                        <div style="font-size: 0.9rem; color: #5a6a7a; margin-top: 0.3rem;">Uvnitř při −10°C venku</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div style="background: #ECF0F1; padding: 1.2rem; border-radius: 12px; text-align: center;">
+                                        <div style="font-size: 1.8rem; font-weight: 800; color: #A5BE00;">100</div>
+                                        <div style="font-size: 0.9rem; color: #5a6a7a; margin-top: 0.3rem;">Kč/den spotřeba</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div style="background: #ECF0F1; padding: 1.2rem; border-radius: 12px; text-align: center;">
+                                        <div style="font-size: 1.8rem; font-weight: 800; color: #A5BE00;">1h</div>
+                                        <div style="font-size: 0.9rem; color: #5a6a7a; margin-top: 0.3rem;">Doba vytopit</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="background: linear-gradient(135deg, #F3E9DC 0%, white 100%); padding: 1.5rem; border-radius: 15px; border-left: 4px solid #E67E22; margin-bottom: 1.5rem;">
+                                <p class="fst-italic" style="color: #5a6a7a; margin-bottom: 0.8rem;">"Bál jsem se, že chata bude jen na léto. V lednu jsme tam byli lyžovat. Vytopili jsme ji za hodinu a celý víkend (3 dny) nás stálo 300 Kč. Skvělé."</p>
+                                <p style="font-style: normal; font-weight: 600; color: #2C3E50; margin-bottom: 0;">— Martin, majitel TULIO Relax Solo</p>
+                            </div>
+
+                            <a class="btn btn-primary" href="#produkty">Chci celoroční využití</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 6. PRODUKTY — s_three_columns + s_card | linen bg (o_cc2)
+                 ================================================================ -->
+            <section class="s_three_columns o_cc o_cc2 o_colored_level pt64 pb64"
+                     data-snippet="s_three_columns"
+                     data-name="Produkty — Varianty"
+                     id="produkty">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center o_colored_level">
+                            <span style="display: inline-block; background: #F3E9DC; color: #E67E22; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Konfigurace</span>
+                            <h2 class="mt-3">Vyberte si svou verzi</h2>
+                            <p class="lead">Tři produktové varianty pro různé potřeby a situace.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-stretch">
+
+                        <!-- Mini -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="TULIO Relax Mini"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px; overflow: hidden;">
+                                <div style="height: 200px; background: linear-gradient(145deg, #4a6b5c 0%, #2d4a3e 100%); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
+                                    🏠
+                                </div>
+                                <div class="card-body p-4">
+                                    <h3 class="h5-fs mb-1">TULIO Relax Mini</h3>
+                                    <p style="color: #5a6a7a; font-size: 0.9rem; margin-bottom: 1rem;">18 m² — Sauna / Ateliér / HomeOffice</p>
+                                    <ul style="list-style: none; padding: 0; margin: 0; border-top: 1px solid #ECF0F1; border-bottom: 1px solid #ECF0F1; padding: 1rem 0; margin-bottom: 1rem;">
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">1 místnost (multifunkční)</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Koupelna + WC</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Terasa 10 m²</li>
+                                    </ul>
+                                    <p style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #2C3E50; margin-bottom: 0.5rem;">Ideální pro:</p>
+                                    <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Sauna na zahradu</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> HomeOffice bunker</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Hudební studio / Ateliér</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> "Man cave" / "She shed"</li>
+                                    </ul>
+                                    <p style="margin-bottom: 0.3rem; font-size: 0.9rem; color: #5a6a7a;">Od</p>
+                                    <p style="font-size: 1.8rem; font-weight: 800; color: #2C3E50; margin-bottom: 1.5rem;">800 000 Kč</p>
+                                    <a class="btn btn-outline-secondary w-100" href="#kontakt">Konfigurace Mini</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Solo — Nejoblíbenější -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="TULIO Relax Solo"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px; overflow: hidden; border: 2px solid #A5BE00 !important; transform: scale(1.02);">
+                                <div style="position: relative;">
+                                    <div style="position: absolute; top: 1rem; right: 1rem; background: #E67E22; color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 700; z-index: 1;">⭐ Nejoblíbenější</div>
+                                    <div style="height: 200px; background: linear-gradient(145deg, #A5BE00 0%, #8fa800 100%); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
+                                        🏡
+                                    </div>
+                                </div>
+                                <div class="card-body p-4">
+                                    <h3 class="h5-fs mb-1">TULIO Relax Solo</h3>
+                                    <p style="color: #5a6a7a; font-size: 0.9rem; margin-bottom: 1rem;">30 m² — Víkendová chata</p>
+                                    <ul style="list-style: none; padding: 0; margin: 0; border-top: 1px solid #ECF0F1; border-bottom: 1px solid #ECF0F1; padding: 1rem 0; margin-bottom: 1rem;">
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Obývací pokoj + kuchyňka</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Ložnice (nebo loft)</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Koupelna + WC</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Terasa 15 m²</li>
+                                    </ul>
+                                    <p style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #2C3E50; margin-bottom: 0.5rem;">Ideální pro:</p>
+                                    <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Víkendová chata (2 osoby)</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Glamping Airbnb</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Rodiče potřebují únik od dětí 😅</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Kreativní workspace</li>
+                                    </ul>
+                                    <p style="margin-bottom: 0.3rem; font-size: 0.9rem; color: #5a6a7a;">Od</p>
+                                    <p style="font-size: 1.8rem; font-weight: 800; color: #2C3E50; margin-bottom: 1.5rem;">1 500 000 Kč</p>
+                                    <a class="btn btn-primary w-100" href="#kontakt">Konfigurace Solo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duo -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="TULIO Relax Duo"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px; overflow: hidden;">
+                                <div style="height: 200px; background: linear-gradient(145deg, #4a6b5c 0%, #2d4a3e 100%); display: flex; align-items: center; justify-content: center; font-size: 4rem;">
+                                    🏘️
+                                </div>
+                                <div class="card-body p-4">
+                                    <h3 class="h5-fs mb-1">TULIO Relax Duo</h3>
+                                    <p style="color: #5a6a7a; font-size: 0.9rem; margin-bottom: 1rem;">45 m² — Rodinná chata</p>
+                                    <ul style="list-style: none; padding: 0; margin: 0; border-top: 1px solid #ECF0F1; border-bottom: 1px solid #ECF0F1; padding: 1rem 0; margin-bottom: 1rem;">
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Obývací pokoj + kuchyň (open space)</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">2 ložnice (nebo loft pro děti)</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Koupelna + WC</li>
+                                        <li style="padding: 0.4rem 0; color: #5a6a7a; font-size: 0.95rem;">Terasa 20 m²</li>
+                                    </ul>
+                                    <p style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #2C3E50; margin-bottom: 0.5rem;">Ideální pro:</p>
+                                    <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Rodinné víkendy (4–6 osob)</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Celoroční chata</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Airbnb pro rodiny</li>
+                                        <li style="padding: 0.3rem 0; padding-left: 1.2rem; position: relative; font-size: 0.9rem; color: #5a6a7a;"><span style="position: absolute; left: 0; color: #A5BE00;">→</span> Babička + děda přespí</li>
+                                    </ul>
+                                    <p style="margin-bottom: 0.3rem; font-size: 0.9rem; color: #5a6a7a;">Od</p>
+                                    <p style="font-size: 1.8rem; font-weight: 800; color: #2C3E50; margin-bottom: 1.5rem;">2 200 000 Kč</p>
+                                    <a class="btn btn-outline-secondary w-100" href="#kontakt">Konfigurace Duo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 7. PERSONALIZACE — s_three_columns | bílá
+                 ================================================================ -->
+            <section class="s_three_columns o_colored_level pt64 pb64"
+                     data-snippet="s_three_columns"
+                     data-name="Personalizace">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center o_colored_level">
+                            <span style="display: inline-block; background: #F3E9DC; color: #E67E22; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Flexibilita</span>
+                            <h2 class="mt-3">Personalizace — Není to <em style="font-style: normal; color: #A5BE00;">krabice z katalogu</em></h2>
+                            <p class="lead">Ukažte, že TULIO není předem daný produkt, ale možnost vyjádřit sebe sama.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- Exteriér -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="Exteriér"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px;">
+                                <div class="card-body p-4">
+                                    <h3 class="h5-fs d-flex align-items-center gap-2 mb-4" style="color: #2C3E50;">
+                                        <span style="font-size: 1.5rem;">🎨</span> Exteriér
+                                    </h3>
+                                    <ul style="list-style: none; padding: 0; margin: 0;">
+                                        <li style="padding: 0.8rem 0; border-bottom: 1px solid #ECF0F1; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Fasáda</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Dřevo / Fundermax / Cembonit</span>
+                                        </li>
+                                        <li style="padding: 0.8rem 0; border-bottom: 1px solid #ECF0F1; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Barva</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Přírodní / Šedá / Černá / Zelená</span>
+                                        </li>
+                                        <li style="padding: 0.8rem 0; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Terasa</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Dřevo / Kámen / Bez</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Interiér -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="Interiér"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px;">
+                                <div class="card-body p-4">
+                                    <h3 class="h5-fs d-flex align-items-center gap-2 mb-4" style="color: #2C3E50;">
+                                        <span style="font-size: 1.5rem;">🛋️</span> Interiér
+                                    </h3>
+                                    <ul style="list-style: none; padding: 0; margin: 0;">
+                                        <li style="padding: 0.8rem 0; border-bottom: 1px solid #ECF0F1; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Podlahy</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Dub / Vinyl / Beton</span>
+                                        </li>
+                                        <li style="padding: 0.8rem 0; border-bottom: 1px solid #ECF0F1; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Stěny</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Viditelné CLT / Bílé</span>
+                                        </li>
+                                        <li style="padding: 0.8rem 0; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Kuchyň</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Základní / Prémiová</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Technologie -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="s_card card h-100 o_cc o_cc5 my-0 o_colored_level shadow rounded"
+                                 data-snippet="s_card"
+                                 data-name="Technologie"
+                                 style="--box-border-top-left-radius: 20px; --box-border-top-right-radius: 20px; --box-border-bottom-left-radius: 20px; --box-border-bottom-right-radius: 20px;">
+                                <div class="card-body p-4">
+                                    <h3 class="h5-fs d-flex align-items-center gap-2 mb-4" style="color: #2C3E50;">
+                                        <span style="font-size: 1.5rem;">⚡</span> Technologie
+                                    </h3>
+                                    <ul style="list-style: none; padding: 0; margin: 0;">
+                                        <li style="padding: 0.8rem 0; border-bottom: 1px solid #ECF0F1; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Vytápění</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Podlahové / Kamna / TČ</span>
+                                        </li>
+                                        <li style="padding: 0.8rem 0; border-bottom: 1px solid #ECF0F1; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Sauna</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Finská / Infrared / Žádná</span>
+                                        </li>
+                                        <li style="padding: 0.8rem 0; display: flex; justify-content: space-between; align-items: center;">
+                                            <span style="font-weight: 500; color: #2C3E50;">Solární panely</span>
+                                            <span style="font-size: 0.85rem; color: #5a6a7a;">Ano (off-grid) / Ne</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12 text-center o_colored_level">
+                            <a class="btn btn-primary" href="#kontakt">Spočítat mou konfiguraci</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 8. INVESTICE — s_three_columns + s_card | tmavé pozadí
+                 ================================================================ -->
+            <section class="s_three_columns o_colored_level pt64 pb64"
+                     data-snippet="s_three_columns"
+                     data-name="Investiční scénáře"
+                     style="background: linear-gradient(135deg, #2C3E50 0%, #1a252f 100%); color: white;">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center">
+                            <span style="display: inline-block; background: rgba(255,255,255,0.15); color: #c8d96d; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Finanční perspektiva</span>
+                            <h2 class="mt-3" style="color: white;">TULIO Relax jako <em style="font-style: normal; color: #c8d96d;">investice</em></h2>
+                            <p class="lead" style="color: rgba(255,255,255,0.85);">Oslovíme racionální část mozku — čísla, která dávají smysl.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- Scénář A -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 2rem; height: 100%;">
+                                <h3 style="color: #c8d96d; margin-bottom: 1rem; font-size: 1.2rem;">Scénář A: Osobní využití</h3>
+                                <p style="color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 1rem;">TULIO Relax Solo za 1,5 mil. Kč. Využití: Každý víkend (50× ročně).</p>
+                                <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 10px; margin-bottom: 1rem;">
+                                    <p style="margin-bottom: 0.5rem; color: rgba(255,255,255,0.6); font-size: 0.9rem;">Alternativa — pronájem:</p>
+                                    <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                        <span>3 000 Kč/noc</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                        <span>50 víkendů × 2 noci</span>
+                                        <span>= 100 nocí</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; padding: 0.5rem 0 0.3rem; font-size: 0.9rem; font-weight: 700; color: #c8d96d; border-top: 1px solid rgba(255,255,255,0.2); margin-top: 0.5rem;">
+                                        <span>Roční náklady</span>
+                                        <span>300 000 Kč</span>
+                                    </div>
+                                </div>
+                                <div style="background: rgba(165,190,0,0.15); border-radius: 10px; border-left: 3px solid #A5BE00; padding: 1rem;">
+                                    <strong style="color: #c8d96d;">Návratnost:</strong> TULIO se "zaplatí" za 5 let vs. pronájem cizích chat. Bonus: Je to vaše.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Scénář B -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 2rem; height: 100%;">
+                                <h3 style="color: #c8d96d; margin-bottom: 1rem; font-size: 1.2rem;">Scénář B: Airbnb pronájem</h3>
+                                <p style="color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 1rem;">TULIO Relax Duo za 2,2 mil. Kč. Pronájem v horské oblasti.</p>
+                                    <div style="background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 10px; margin-bottom: 1rem;">
+                                        <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                            <span>Pronájem</span>
+                                            <span>3 500 Kč/noc</span>
+                                        </div>
+                                        <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                            <span>Vytížení (20 víkendů)</span>
+                                            <span>40 nocí</span>
+                                        </div>
+                                        <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                            <span>Hrubý příjem</span>
+                                            <span>140 000 Kč/rok</span>
+                                        </div>
+                                        <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                            <span>Náklady</span>
+                                            <span>−40 000 Kč/rok</span>
+                                        </div>
+                                        <div style="display: flex; justify-content: space-between; padding: 0.5rem 0 0.3rem; font-size: 0.9rem; font-weight: 700; color: #c8d96d; border-top: 1px solid rgba(255,255,255,0.2); margin-top: 0.5rem;">
+                                            <span>Čistý profit</span>
+                                            <span>100 000 Kč/rok</span>
+                                        </div>
+                                    </div>
+                                <div style="background: rgba(165,190,0,0.15); border-radius: 10px; border-left: 3px solid #A5BE00; padding: 1rem;">
+                                    <strong style="color: #c8d96d;">Návratnost:</strong> 22 let — ale mezitím tam vy jezdíte. Investice do kvality života, která se částečně vrací.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Scénář C -->
+                        <div class="col-lg-4 pt16 pb16">
+                            <div style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 2rem; height: 100%;">
+                                <h3 style="color: #c8d96d; margin-bottom: 1rem; font-size: 1.2rem;">Scénář C: Budoucí prodej</h3>
+                                <p style="color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 1rem;">Za 10 let chcete prodat. Porovnání vývoje hodnoty.</p>
+                                <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 10px; margin-bottom: 1rem;">
+                                    <p style="margin-bottom: 0.5rem; color: #c8d96d; font-size: 0.9rem;">TULIO Relax:</p>
+                                    <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                        <span>Dnes</span>
+                                        <span>1 500 000 Kč</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; padding: 0.5rem 0 0.3rem; font-size: 0.9rem; font-weight: 700; color: #c8d96d; border-top: 1px solid rgba(255,255,255,0.2); margin-top: 0.5rem;">
+                                        <span>Za 10 let</span>
+                                        <span>1 800 000 Kč (+20%)</span>
+                                    </div>
+                                    <p style="margin: 1rem 0 0.5rem; color: #e74c3c; font-size: 0.9rem;">Levný tinyhouse:</p>
+                                    <div style="display: flex; justify-content: space-between; padding: 0.3rem 0; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                        <span>Dnes</span>
+                                        <span>600 000 Kč</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; padding: 0.5rem 0 0.3rem; font-size: 0.9rem; font-weight: 700; color: #e74c3c; border-top: 1px solid rgba(255,255,255,0.2); margin-top: 0.5rem;">
+                                        <span>Za 10 let</span>
+                                        <span>300 000 Kč (−50%)</span>
+                                    </div>
+                                </div>
+                                <div style="background: rgba(165,190,0,0.15); border-radius: 10px; border-left: 3px solid #A5BE00; padding: 1rem;">
+                                    <strong style="color: #c8d96d;">Rozdíl:</strong> Kvalitní konstrukce, žádná údržba = rostoucí hodnota.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 9. PROCES — s_key_benefits | bílá | 6 kroků
+                 ================================================================ -->
+            <section class="s_key_benefits o_colored_level pt64 pb64"
+                     data-snippet="s_key_benefits"
+                     data-name="Jak začít — Proces"
+                     id="proces">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center o_colored_level">
+                            <span style="display: inline-block; background: #F3E9DC; color: #E67E22; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Proces</span>
+                            <h2 class="mt-3">Jak začít?</h2>
+                            <p class="lead">Od první myšlenky po klíče za 2 měsíce.</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 o_colored_level">
+
+                            <!-- Timeline linka + kroky -->
+                            <div style="position: relative;">
+                                <div style="position: absolute; left: 30px; top: 0; bottom: 0; width: 3px; background: linear-gradient(to bottom, #A5BE00, #E67E22);"/>
+
+                                <!-- Krok 1 -->
+                                <div style="display: flex; gap: 2rem; margin-bottom: 2.5rem; position: relative;">
+                                    <div style="width: 60px; height: 60px; background: white; border: 3px solid #A5BE00; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; color: #A5BE00; flex-shrink: 0; z-index: 2;">1</div>
+                                    <div style="background: #ECF0F1; padding: 1.5rem 2rem; border-radius: 15px; flex: 1;">
+                                        <h3 style="color: #2C3E50; margin-bottom: 0.5rem; font-size: 1.2rem;">Prověření pozemku (zdarma)</h3>
+                                        <p style="color: #5a6a7a; line-height: 1.6; margin-bottom: 0;">Pošlete nám obec + parcelní číslo. My zjistíme: Lze tam stavět rekreační objekt? Výsledek: Ano/Ne + doporučení.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Krok 2 -->
+                                <div style="display: flex; gap: 2rem; margin-bottom: 2.5rem; position: relative;">
+                                    <div style="width: 60px; height: 60px; background: white; border: 3px solid #A5BE00; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; color: #A5BE00; flex-shrink: 0; z-index: 2;">2</div>
+                                    <div style="background: #ECF0F1; padding: 1.5rem 2rem; border-radius: 15px; flex: 1;">
+                                        <h3 style="color: #2C3E50; margin-bottom: 0.5rem; font-size: 1.2rem;">Výběr konfigurace (konzultace 20 min)</h3>
+                                        <p style="color: #5a6a7a; line-height: 1.6; margin-bottom: 0;">Mini / Solo / Duo? Exteriér, interiér, technologie. Orientační cena.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Krok 3 -->
+                                <div style="display: flex; gap: 2rem; margin-bottom: 2.5rem; position: relative;">
+                                    <div style="width: 60px; height: 60px; background: white; border: 3px solid #A5BE00; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; color: #A5BE00; flex-shrink: 0; z-index: 2;">3</div>
+                                    <div style="background: #ECF0F1; padding: 1.5rem 2rem; border-radius: 15px; flex: 1;">
+                                        <h3 style="color: #2C3E50; margin-bottom: 0.5rem; font-size: 1.2rem;">Objednávka + projekt</h3>
+                                        <p style="color: #5a6a7a; line-height: 1.6; margin-bottom: 0;">Záloha: 30%. Projektová dokumentace (pokud potřeba). Povolení (pokud potřeba).</p>
+                                    </div>
+                                </div>
+
+                                <!-- Krok 4 -->
+                                <div style="display: flex; gap: 2rem; margin-bottom: 2.5rem; position: relative;">
+                                    <div style="width: 60px; height: 60px; background: white; border: 3px solid #A5BE00; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; color: #A5BE00; flex-shrink: 0; z-index: 2;">4</div>
+                                    <div style="background: #ECF0F1; padding: 1.5rem 2rem; border-radius: 15px; flex: 1;">
+                                        <h3 style="color: #2C3E50; margin-bottom: 0.5rem; font-size: 1.2rem;">Výroba (6–8 týdnů)</h3>
+                                        <p style="color: #5a6a7a; line-height: 1.6; margin-bottom: 0;">My vyrábíme v hale. Vy připravujete základy (my poradíme jak).</p>
+                                    </div>
+                                </div>
+
+                                <!-- Krok 5 -->
+                                <div style="display: flex; gap: 2rem; margin-bottom: 2.5rem; position: relative;">
+                                    <div style="width: 60px; height: 60px; background: white; border: 3px solid #A5BE00; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; color: #A5BE00; flex-shrink: 0; z-index: 2;">5</div>
+                                    <div style="background: #ECF0F1; padding: 1.5rem 2rem; border-radius: 15px; flex: 1;">
+                                        <h3 style="color: #2C3E50; margin-bottom: 0.5rem; font-size: 1.2rem;">Montáž (1–2 dny)</h3>
+                                        <p style="color: #5a6a7a; line-height: 1.6; margin-bottom: 0;">Přivezeme jeřábem. Napojíme přípojky. Předáme klíče.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Krok 6 -->
+                                <div style="display: flex; gap: 2rem; position: relative;">
+                                    <div style="width: 60px; height: 60px; background: white; border: 3px solid #A5BE00; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; color: #A5BE00; flex-shrink: 0; z-index: 2;">6</div>
+                                    <div style="background: #ECF0F1; padding: 1.5rem 2rem; border-radius: 15px; flex: 1;">
+                                        <h3 style="color: #2C3E50; margin-bottom: 0.5rem; font-size: 1.2rem;">Užívejte si klid</h3>
+                                        <p style="color: #5a6a7a; line-height: 1.6; margin-bottom: 0;">Záruka: 10 let konstrukce. Servis: 1× ročně kontrola (volitelné).</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 text-center o_colored_level">
+                            <a class="btn btn-primary" href="#kontakt">Začít prověřením pozemku</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 10. FAQ — s_accordion | linen bg (o_cc2) | Bootstrap 5 accordion
+                 ================================================================ -->
+            <section class="s_accordion o_cc o_cc2 o_colored_level pt64 pb64"
+                     data-snippet="s_accordion"
+                     data-name="FAQ — Často kladené otázky">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 text-center o_colored_level">
+                            <span style="display: inline-block; background: #F3E9DC; color: #E67E22; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">FAQ</span>
+                            <h2 class="mt-3">Často kladené otázky</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2 o_colored_level">
+                            <div class="accordion" id="relaxFaqAccordion">
+
+                                <div class="accordion-item border-0 mb-3 rounded shadow-sm">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-semibold rounded"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#faq1"
+                                                aria-expanded="false">
+                                            Potřebuju stavební povolení?
+                                        </button>
+                                    </h3>
+                                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#relaxFaqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="color: #5a6a7a; line-height: 1.7; margin-bottom: 0;">Záleží na velikosti a místě. Do 25 m² často ne (dle stavebního zákona). Nad 25 m² typicky ano. My vám pomůžeme to zjistit zdarma.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3 rounded shadow-sm">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-semibold rounded"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#faq2"
+                                                aria-expanded="false">
+                                            Můžu tam bydlet trvale?
+                                        </button>
+                                    </h3>
+                                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#relaxFaqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="color: #5a6a7a; line-height: 1.7; margin-bottom: 0;">Legislativně ne (rekreační objekt). Pokud chcete trvalé bydlení, volte <a href="/tulio-rodinny">TULIO Rodinný</a> (12% DPH, hypotéka, kolaudace na bydlení).</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3 rounded shadow-sm">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-semibold rounded"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#faq3"
+                                                aria-expanded="false">
+                                            Co když nemám elektřinu/vodu na pozemku?
+                                        </button>
+                                    </h3>
+                                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#relaxFaqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="color: #5a6a7a; line-height: 1.7; margin-bottom: 0;">
+                                                <strong>Elektřina:</strong> Solární panely (off-grid možnost)<br/>
+                                                <strong>Voda:</strong> Studna / Nádrž na dešťovou vodu / Dopravovat<br/>
+                                                <strong>Odpad:</strong> Kompostovací WC / ČOV (čistička)<br/>
+                                                My poradíme nejlepší řešení pro váš pozemek.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3 rounded shadow-sm">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-semibold rounded"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#faq4"
+                                                aria-expanded="false">
+                                            Jaká je údržba fasády?
+                                        </button>
+                                    </h3>
+                                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#relaxFaqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="color: #5a6a7a; line-height: 1.7; margin-bottom: 0;">
+                                                <strong>Přírodní dřevo:</strong> Získá stříbrnou patinu (žádná údržba) nebo můžete natřít 1× za 5 let<br/>
+                                                <strong>Fundermax:</strong> Bezúdržbová (jen opláchnout)<br/>
+                                                My doporučujeme: Fundermax pro minimum starostí.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3 rounded shadow-sm">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-semibold rounded"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#faq5"
+                                                aria-expanded="false">
+                                            Můžu to financovat hypotékou?
+                                        </button>
+                                    </h3>
+                                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#relaxFaqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="color: #5a6a7a; line-height: 1.7; margin-bottom: 0;">Obvykle ne (rekreační objekt). Možnosti: Spotřebitelský úvěr (10–12% úrok), vlastní úspory. Pro Rodinný dům: Hypotéka možná (12% DPH, kolaudace na bydlení).</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 mb-3 rounded shadow-sm">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-semibold rounded"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#faq6"
+                                                aria-expanded="false">
+                                            Kolik stojí provoz (elektřina, voda)?
+                                        </button>
+                                    </h3>
+                                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#relaxFaqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="color: #5a6a7a; line-height: 1.7; margin-bottom: 0;">
+                                                <strong>Elektřina</strong> (víkendové využití): 500–800 Kč/měsíc<br/>
+                                                <strong>Voda</strong> (studna): 0 Kč<br/>
+                                                <strong>ČOV údržba:</strong> 2 000 Kč/rok<br/>
+                                                <strong>Celkem:</strong> Cca 1 000 Kč/měsíc
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ================================================================
+                 11. ZÁVĚREČNÉ CTA — s_call_to_action | tmavé forestní pozadí
+                 ================================================================ -->
+            <section class="s_call_to_action o_colored_level pt80 pb80"
+                     data-snippet="s_call_to_action"
+                     data-name="Závěrečné CTA"
+                     id="kontakt"
+                     style="background: linear-gradient(135deg, #2d4a3e 0%, #2C3E50 100%); text-align: center; color: white;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 o_colored_level">
+                            <h2 style="color: white; font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1rem;">
+                                Neříkejte si "jednou to bude".<br/>Začněte tento pátek.
+                            </h2>
+                            <p class="lead mb-3" style="color: rgba(255,255,255,0.85);">
+                                Za 2 měsíce máte klíče. Za 2 roky máte vzpomínky, které se za peníze nekupují.
+                            </p>
+                            <div style="max-width: 600px; margin: 0 auto 2rem; padding: 1.5rem; background: rgba(255,255,255,0.08); border-radius: 15px; font-size: 1.1rem; line-height: 1.8; color: rgba(255,255,255,0.9);">
+                                Kolik víkendů vám ještě zbývá?<br/>
+                                52 × 30 let = <strong>1 560 víkendů.</strong><br/>
+                                Chcete je strávit v bytě, nebo v lese?
+                            </div>
+                            <div class="d-flex gap-3 justify-content-center flex-wrap mb-4">
+                                <a class="btn btn-primary btn-lg" href="mailto:info@tulio.cz?subject=Chci%20TULIO%20Relax">Chci TULIO Relax</a>
+                                <a class="btn btn-secondary btn-lg" href="mailto:info@tulio.cz?subject=Prověření%20pozemku">Prověřit můj pozemek zdarma</a>
+                                <a class="btn btn-secondary btn-lg" href="#kontakt">Stáhnout katalog Relax</a>
+                            </div>
+                            <div class="d-flex gap-4 justify-content-center flex-wrap" style="font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                                <span><span class="fa fa-check" style="color: #A5BE00;"/> Prověření pozemku zdarma</span>
+                                <span><span class="fa fa-check" style="color: #A5BE00;"/> Nezávazná konzultace</span>
+                                <span><span class="fa fa-check" style="color: #A5BE00;"/> 10 let záruka na konstrukci</span>
+                                <span><span class="fa fa-check" style="color: #A5BE00;"/> Žádné skryté poplatky</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </t>
+</t>
